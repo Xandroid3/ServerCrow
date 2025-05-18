@@ -14,6 +14,7 @@
       "minecraft:lukewarm_ocean": "2025-05-18 01:03:06 +0000",
       "minecraft:forest": "2025-05-18 00:32:58 +0000",
       "minecraft:jungle": "2025-05-18 00:44:27 +0000",
+      "minecraft:savanna": "2025-05-18 01:04:53 +0000",
       "minecraft:plains": "2025-05-18 00:29:01 +0000"
     },
     "done": false
@@ -398,7 +399,10 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_porkchop": "2025-05-18 00:31:41 +0000"
+      "cooked_porkchop": "2025-05-18 00:31:41 +0000",
+      "rotten_flesh": "2025-05-18 01:11:10 +0000",
+      "suspicious_stew": "2025-05-18 01:06:39 +0000",
+      "carrot": "2025-05-18 01:06:49 +0000"
     },
     "done": false
   },
@@ -579,6 +583,139 @@
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-05-18 00:51:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-05-18 01:05:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-05-18 01:06:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-05-18 01:05:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-05-18 01:05:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2025-05-18 01:05:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-05-18 01:05:13 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/root": {
+    "criteria": {
+      "underground_cabin": "2025-05-18 01:06:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:spider": "2025-05-18 01:05:12 +0000",
+      "minecraft:zombie": "2025-05-18 01:05:24 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-05-18 01:05:13 +0000"
+    },
+    "done": true
+  },
+  "apollyon:back_to_hell": {
+    "criteria": {
+      "back_to_hell": "2025-05-18 01:08:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-05-18 01:05:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-05-18 01:06:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-05-18 01:05:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-05-18 01:06:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-05-18 01:05:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-05-18 01:06:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-05-18 01:06:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2025-05-18 01:05:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:spider": "2025-05-18 01:05:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2025-05-18 01:06:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-05-18 01:05:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-05-18 01:06:32 +0000"
     },
     "done": true
   },
