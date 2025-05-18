@@ -1828,6 +1828,12 @@
     },
     "done": true
   },
+  "endofherobrine:recipes/decorations/cursed_head": {
+    "criteria": {
+      "has_item": "2025-05-18 21:26:31 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/iron_glaive": {
     "criteria": {
       "has_iron_ingot": "2025-05-18 21:09:47 +0000"
