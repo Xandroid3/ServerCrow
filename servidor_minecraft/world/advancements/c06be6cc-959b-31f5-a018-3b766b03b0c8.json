@@ -2028,6 +2028,12 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/leather_longbow": {
+    "criteria": {
+      "has_leather": "2025-05-18 22:54:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2025-05-18 22:07:21 +0000"
@@ -2037,6 +2043,12 @@
   "spartanweaponry:recipes/diamond_spear": {
     "criteria": {
       "has_diamond": "2025-05-18 22:07:21 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/cestus": {
+    "criteria": {
+      "has_leather": "2025-05-18 22:54:50 +0000"
     },
     "done": true
   },
@@ -2073,6 +2085,12 @@
   "spartanweaponry:recipes/huge_quiver_brace": {
     "criteria": {
       "has_diamond": "2025-05-18 22:07:21 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:halberd": {
+    "criteria": {
+      "has_halberd": "2025-05-18 23:02:21 +0000"
     },
     "done": true
   },
@@ -2172,6 +2190,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-05-18 23:00:57 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/diamond_boomerang": {
     "criteria": {
       "has_diamond": "2025-05-18 22:07:21 +0000"
@@ -2262,6 +2286,12 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/explosive_charge": {
+    "criteria": {
+      "has_gunpowder": "2025-05-18 22:59:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2025-05-18 22:45:28 +0000"
@@ -2289,6 +2319,12 @@
   "spartanweaponry:recipes/copper_pike": {
     "criteria": {
       "has_copper_ingot": "2025-05-18 22:49:32 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/leather_heavy_crossbow": {
+    "criteria": {
+      "has_leather": "2025-05-18 22:54:50 +0000"
     },
     "done": true
   },
@@ -2376,6 +2412,12 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/quiver_compartment": {
+    "criteria": {
+      "has_leather": "2025-05-18 22:54:50 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/copper_dagger": {
     "criteria": {
       "has_copper_ingot": "2025-05-18 22:49:32 +0000"
@@ -2409,6 +2451,12 @@
   "spartanweaponry:recipes/copper_flanged_mace": {
     "criteria": {
       "has_copper_ingot": "2025-05-18 22:49:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-05-18 22:57:36 +0000"
     },
     "done": true
   },
@@ -2490,9 +2538,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-05-18 22:59:51 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/copper_throwing_knife": {
     "criteria": {
       "has_copper_ingot": "2025-05-18 22:49:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-05-18 22:59:51 +0000"
     },
     "done": true
   },
@@ -2511,6 +2571,12 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2025-05-18 22:07:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-05-18 22:57:36 +0000"
     },
     "done": true
   },
