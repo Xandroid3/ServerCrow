@@ -14,6 +14,7 @@
       "minecraft:sparse_jungle": "2025-05-18 00:28:53 +0000",
       "minecraft:river": "2025-05-18 00:28:47 +0000",
       "minecraft:lukewarm_ocean": "2025-05-18 01:03:06 +0000",
+      "minecraft:dripstone_caves": "2025-05-18 23:08:21 +0000",
       "minecraft:forest": "2025-05-18 00:32:58 +0000",
       "minecraft:lush_caves": "2025-05-18 21:42:16 +0000",
       "minecraft:jungle": "2025-05-18 00:44:27 +0000",
@@ -2100,6 +2101,12 @@
     },
     "done": true
   },
+  "spartanshields:recipes/obsidian_tower_shield": {
+    "criteria": {
+      "has_obsidian": "2025-05-18 23:13:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2025-05-18 22:07:21 +0000"
@@ -2157,6 +2164,12 @@
   "spartanshields:recipes/diamond_basic_shield": {
     "criteria": {
       "has_diamond": "2025-05-18 22:07:21 +0000"
+    },
+    "done": true
+  },
+  "spartanshields:recipes/obsidian_basic_shield": {
+    "criteria": {
+      "has_obsidian": "2025-05-18 23:13:59 +0000"
     },
     "done": true
   },
@@ -2265,6 +2278,12 @@
   "spartanweaponry:recipes/copper_javelin": {
     "criteria": {
       "has_copper_ingot": "2025-05-18 22:49:32 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/cancel_ghostly_shape": {
+    "criteria": {
+      "coded_trigger": "2025-05-18 23:22:57 +0000"
     },
     "done": true
   },
@@ -2400,6 +2419,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-05-18 23:13:59 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/bone_crusher": {
     "criteria": {
       "coded_trigger": "2025-05-18 22:37:47 +0000"
@@ -2433,6 +2458,12 @@
   "spartanweaponry:recipes/diamond_greatsword": {
     "criteria": {
       "has_diamond": "2025-05-18 22:07:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-05-18 23:13:59 +0000"
     },
     "done": true
   },
@@ -2475,6 +2506,12 @@
   "spartanweaponry:recipes/copper_scythe": {
     "criteria": {
       "has_copper_ingot": "2025-05-18 22:49:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-05-18 23:09:23 +0000"
     },
     "done": true
   },
@@ -2562,6 +2599,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-05-18 23:13:59 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/enchant_grave_key": {
     "criteria": {
       "has_upgraded_grave_key": "2025-05-18 22:13:28 +0000"
@@ -2589,6 +2632,12 @@
   "spartanweaponry:recipes/diamond_glaive": {
     "criteria": {
       "has_diamond": "2025-05-18 22:07:21 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:boomerang": {
+    "criteria": {
+      "has_boomerang": "2025-05-18 23:04:14 +0000"
     },
     "done": true
   },
