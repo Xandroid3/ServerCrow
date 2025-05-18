@@ -225,3 +225,143 @@ Available: [Lnet/minecraft/world/item/Item;, Lnet/minecraft/world/item/ItemStack
 [18May2025 00:16:23.688] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@23e77b0b[id=<null>,name=Ram_zzz,properties={},legacy=false] (/100.117.116.41:54529) lost connection: Connection closed - mismatched mod channel list
 [18May2025 00:18:28.587] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Xandroid3X lost connection: Disconnected
 [18May2025 00:18:28.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X left the game
+[18May2025 00:20:21.731] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [spartanshields:network,fabridge:network,tombstone:tombstone_channel,sophisticatedbackpacks:channel,sophisticatedcore:channel] rejected their client side version number
+[18May2025 00:20:21.732] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[18May2025 00:20:21.779] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@349a5c7[id=<null>,name=junioxd,properties={},legacy=false] (/100.83.92.16:52645) lost connection: Connection closed - mismatched mod channel list
+[18May2025 00:22:45.505] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Xandroid3X[/100.102.20.95:2416] logged in with entity id 1269 at (-9.699999988079071, 61.0, 13.699999988079071)
+[18May2025 00:22:45.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X joined the game
+[18May2025 00:23:24.198] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ram_zzz[/100.117.116.41:54662] logged in with entity id 1394 at (6.5, 64.0, -5.5)
+[18May2025 00:23:24.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ram_zzz joined the game
+[18May2025 00:23:29.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
+[18May2025 00:23:35.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> q pedo
+[18May2025 00:23:42.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> a ora si
+[18May2025 00:23:56.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> c doom
+[18May2025 00:24:03.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ola
+[18May2025 00:24:04.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> soi doom
+[18May2025 00:24:24.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> crei q eras slow vro...
+[18May2025 00:24:29.886] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [spartanshields:network,fabridge:network,tombstone:tombstone_channel,sophisticatedbackpacks:channel,sophisticatedcore:channel] rejected their client side version number
+[18May2025 00:24:29.887] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[18May2025 00:24:29.934] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2cd34885[id=<null>,name=junioxd,properties={},legacy=false] (/100.83.92.16:52689) lost connection: Connection closed - mismatched mod channel list
+[18May2025 00:24:53.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> donde andas vro
+[18May2025 00:24:59.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> al lado tuyo pendeyo
+[18May2025 00:25:06.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> a
+[18May2025 00:25:29.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> chetemosno bro
+[18May2025 00:25:29.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> pq
+[18May2025 00:25:34.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> luego va a hacer imposible
+[18May2025 00:25:43.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> q mods metiste de dificultad...
+[18May2025 00:25:49.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> unos 3
+[18May2025 00:25:58.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> segun crow el alex caves tmb suma
+[18May2025 00:26:00.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> asi que serian 4
+[18May2025 00:26:05.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> aunque en 2 dias pongo 2 mas
+[18May2025 00:26:14.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> va
+[18May2025 00:26:25.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> soy un negro wei?
+[18May2025 00:26:30.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> si
+[18May2025 00:26:34.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ozi
+[18May2025 00:26:57.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> void a buscar cuevas
+[18May2025 00:27:02.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> oc
+[18May2025 00:27:17.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> me voy a chingar unas obejas
+[18May2025 00:27:35.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ay we ortografia del flauta
+[18May2025 00:27:43.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> vro
+[18May2025 00:27:46.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> a
+[18May2025 00:27:49.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> estas akiw
+[18May2025 00:27:50.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> a
+[18May2025 00:27:54.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> y el jun aun no se une
+[18May2025 00:27:57.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> que estara haciendo
+[18May2025 00:28:03.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ns
+[18May2025 00:28:12.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> es vrd
+[18May2025 00:28:16.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no esta en difici
+[18May2025 00:28:55.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ram_zzz has made the advancement [Stone Age]
+[18May2025 00:29:13.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X has made the advancement [Stone Age]
+[18May2025 00:29:30.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> hay unos bichos raros ahi
+[18May2025 00:29:33.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> q
+[18May2025 00:29:36.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no se cuanto quitan
+[18May2025 00:29:40.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> onde
+[18May2025 00:29:43.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> tienen aspecto gris con esporas
+[18May2025 00:29:50.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> nao te advierto dx
+[18May2025 00:30:08.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X has made the advancement [Getting an Upgrade]
+[18May2025 00:31:14.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ram_zzz has made the advancement [Getting an Upgrade]
+[18May2025 00:32:22.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> voy por comida vro
+[18May2025 00:32:35.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ya tengo vro
+[18May2025 00:33:16.706] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2082ms or 41 ticks behind
+[18May2025 00:33:52.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> me asustaste wei
+[18May2025 00:34:00.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> vro
+[18May2025 00:34:02.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> si te aparece
+[18May2025 00:34:06.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> un bicho negro
+[18May2025 00:34:11.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no lo mires
+[18May2025 00:34:20.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> es como un enderman pero peor
+[18May2025 00:34:23.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> oc...
+[18May2025 00:34:30.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> QUE VERGA
+[18May2025 00:34:34.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> Bro
+[18May2025 00:34:40.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> tengo miedo wei
+[18May2025 00:34:47.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no tengo ni escudo
+[18May2025 00:34:50.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> rip doom
+[18May2025 00:34:51.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> asi ronca mi tio...
+[18May2025 00:35:27.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no hay hierro
+[18May2025 00:35:37.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ram_zzz has made the advancement [Acquire Hardware]
+[18May2025 00:35:48.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> toma bot
+[18May2025 00:35:52.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> gracias papa
+[18May2025 00:36:06.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ram
+[18May2025 00:36:10.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ke
+[18May2025 00:36:11.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> noto tu internet
+[18May2025 00:36:12.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> de kk
+[18May2025 00:36:14.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ...
+[18May2025 00:36:15.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> cuando comes
+[18May2025 00:36:27.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> es de cerro bro no critiques...
+[18May2025 00:36:41.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> q me miras wei
+[18May2025 00:36:53.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> tu
+[18May2025 00:36:58.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> atractivo
+[18May2025 00:37:03.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> vro
+[18May2025 00:37:08.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ay wei
+[18May2025 00:37:13.845] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: junioxd[/100.83.92.16:53173] logged in with entity id 5140 at (5.5, 64.0, -7.5)
+[18May2025 00:37:13.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd joined the game
+[18May2025 00:37:18.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ay jun
+[18May2025 00:37:21.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> te van a meter
+[18May2025 00:37:21.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> JUN
+[18May2025 00:37:22.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> el huevo
+[18May2025 00:37:23.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> buenas
+[18May2025 00:37:29.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> te la van a meter bien recio
+[18May2025 00:37:30.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ven
+[18May2025 00:37:39.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> es hardcore ? no
+[18May2025 00:37:40.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> -77 61 303
+[18May2025 00:37:43.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> entonces no me la meteran
+[18May2025 00:37:45.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> nop
+[18May2025 00:37:51.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> entonces cual es el miedo webon
+[18May2025 00:37:58.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> hay algun mod de dweller ?
+[18May2025 00:38:03.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> si
+[18May2025 00:38:03.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> si...
+[18May2025 00:38:04.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> 2
+[18May2025 00:38:06.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> y
+[18May2025 00:38:10.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> recien estaba gritando mi tio aca
+[18May2025 00:38:11.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> uno que es como parasitos
+[18May2025 00:38:13.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> hermano yo luche con el the fog
+[18May2025 00:38:15.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> solo que con esporas
+[18May2025 00:38:17.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> no le tengo miedo
+[18May2025 00:38:20.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> bro
+[18May2025 00:38:27.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> tengo malos recuerdos con mods de esporas
+[18May2025 00:38:31.436] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2062ms or 41 ticks behind
+[18May2025 00:38:34.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> me consumieron toda la casa la ultima vez
+[18May2025 00:38:37.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> XDD
+[18May2025 00:38:40.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd was slain by Zombie
+[18May2025 00:38:40.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd has made the advancement [Your First Grave]
+[18May2025 00:38:40.446] [Server thread/INFO] [tombstone/]: The player junioxd has successfully been saved
+[18May2025 00:38:43.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> tu tranki
+[18May2025 00:38:44.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> XDD
+[18May2025 00:38:44.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> XDDDDDD
+[18May2025 00:38:51.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> CUAL ES EL MIEDO DICE
+[18May2025 00:38:53.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> me mato un zombie por estar buscando
+[18May2025 00:38:55.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ACABA DE MORIR EN NORMAL
+[18May2025 00:38:55.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> XDDDDDD
+[18May2025 00:39:03.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> webon me quede afk
+[18May2025 00:39:09.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> si si aja
+[18May2025 00:39:13.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ya te voy a buscar
+[18May2025 00:39:14.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> cuando los encuentre les voy a dar yupi
+[18May2025 00:39:25.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ram
+[18May2025 00:39:37.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> AY WEI
+[18May2025 00:39:38.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> bro
+[18May2025 00:39:40.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> creo
+[18May2025 00:39:40.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> qu
+[18May2025 00:39:48.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> puede estar arriba
+[18May2025 00:39:52.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> MAYBE
+[18May2025 00:39:59.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ram recuerdame
+[18May2025 00:40:01.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> si no regreso
+[18May2025 00:40:05.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ok...
