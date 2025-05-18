@@ -1,69 +1,447 @@
-[18May2025 20:17:00.451] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[18May2025 20:17:00.456] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[18May2025 20:17:02.108] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[18May2025 20:17:02.135] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[18May2025 20:17:02.207] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[18May2025 20:17:02.266] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[18May2025 20:17:02.380] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ServerCrow/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar%23116%23119!/ Service=ModLauncher Env=SERVER
-[18May2025 20:17:03.129] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[18May2025 20:17:03.136] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[18May2025 20:17:03.141] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[18May2025 20:17:03.146] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[18May2025 20:17:04.063] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 48 dependencies adding them to mods collection
-[18May2025 20:17:04.794] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 1 candidates to load
-[18May2025 20:17:08.717] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
-[18May2025 20:17:11.044] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[18May2025 20:17:11.498] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[18May2025 20:17:12.092] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
-[18May2025 20:17:12.505] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[18May2025 20:17:12.768] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[18May2025 20:17:13.621] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
-[18May2025 20:17:13.624] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
-[18May2025 20:17:13.625] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
-[18May2025 20:17:13.636] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[18May2025 20:17:13.637] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[18May2025 20:17:13.637] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
-[18May2025 20:17:16.588] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[18May2025 20:17:25.989] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[18May2025 20:17:25.992] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[18May2025 20:17:26.015] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[18May2025 20:17:26.017] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[18May2025 20:17:33.729] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin from mod alexscaves has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[18May2025 21:08:05.572] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[18May2025 21:08:05.576] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[18May2025 21:08:06.770] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[18May2025 21:08:06.798] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[18May2025 21:08:06.844] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[18May2025 21:08:06.873] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[18May2025 21:08:06.949] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ServerCrow/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar%23123%23126!/ Service=ModLauncher Env=SERVER
+[18May2025 21:08:07.367] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[18May2025 21:08:07.368] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[18May2025 21:08:07.369] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[18May2025 21:08:07.371] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[18May2025 21:08:07.968] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 48 dependencies adding them to mods collection
+[18May2025 21:08:08.444] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 1 candidates to load
+[18May2025 21:08:10.177] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[18May2025 21:08:11.928] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18May2025 21:08:12.227] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[18May2025 21:08:12.597] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[18May2025 21:08:12.649] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
+[18May2025 21:08:13.420] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18May2025 21:08:13.440] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18May2025 21:08:14.098] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[18May2025 21:08:14.100] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[18May2025 21:08:14.101] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
+[18May2025 21:08:14.107] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[18May2025 21:08:14.108] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[18May2025 21:08:14.109] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
+[18May2025 21:08:15.940] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[18May2025 21:08:21.720] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18May2025 21:08:21.722] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18May2025 21:08:21.741] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18May2025 21:08:21.741] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18May2025 21:08:26.638] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin from mod alexscaves has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[18May2025 20:17:35.020] [main/INFO] [prionmod/]: Zirp Zorg Zirp
-[18May2025 20:17:35.200] [main/INFO] [prionmod/]: Registering Mod Items for prionmod
-[18May2025 20:17:35.210] [main/INFO] [prionmod/]: Registering ModBlocks for prionmod
-[18May2025 20:17:35.259] [main/INFO] [prionmod/]: Registering Sounds for prionmod
-[18May2025 20:17:35.266] [main/INFO] [prionmod/]: Registering Item Groups for prionmod
-[18May2025 20:17:37.184] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[18May2025 20:17:37.187] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[18May2025 20:17:37.345] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
-[18May2025 20:17:38.345] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
-[18May2025 20:17:38.345] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
-[18May2025 20:17:43.870] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[18May2025 20:17:44.418] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[18May2025 20:17:45.601] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[18May2025 20:17:46.173] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
-[18May2025 20:17:46.510] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
-[18May2025 20:17:46.511] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[18May2025 20:17:46.601] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.9.4 Target: null
-[18May2025 20:17:53.446] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18May2025 20:17:57.225] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23137!/assets/.mcassetsroot' uses unexpected schema
-[18May2025 20:17:57.227] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23137!/data/.mcassetsroot' uses unexpected schema
-[18May2025 20:18:00.368] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[18May2025 20:18:01.086] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:prionmod:entities/thrall
+[18May2025 21:08:27.383] [main/INFO] [prionmod/]: Zirp Zorg Zirp
+[18May2025 21:08:27.468] [main/INFO] [prionmod/]: Registering Mod Items for prionmod
+[18May2025 21:08:27.472] [main/INFO] [prionmod/]: Registering ModBlocks for prionmod
+[18May2025 21:08:27.496] [main/INFO] [prionmod/]: Registering Sounds for prionmod
+[18May2025 21:08:27.498] [main/INFO] [prionmod/]: Registering Item Groups for prionmod
+[18May2025 21:08:28.018] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[18May2025 21:08:28.402] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[18May2025 21:08:28.402] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[18May2025 21:08:28.617] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[18May2025 21:08:29.588] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[18May2025 21:08:29.591] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 11
+[18May2025 21:08:29.593] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 11 has been initalized!
+[18May2025 21:08:29.878] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[18May2025 21:08:29.878] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[18May2025 21:08:33.037] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[18May2025 21:08:33.090] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/ServerCrow/servidor_minecraft/config/betterdungeons-forge-1_20.toml is not correct. Correcting
+[18May2025 21:08:33.092] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.093] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.General was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.093] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.General.Enable Skulls & Heads was corrected from null to its default, true. 
+[18May2025 21:08:33.094] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.General.Enable Nether Blocks in Dungeons was corrected from null to its default, true. 
+[18May2025 21:08:33.094] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Zombie Dungeons was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.095] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Zombie Dungeons.Zombie Dungeon Surface Entrance Staircase Max Length was corrected from null to its default, 20. 
+[18May2025 21:08:33.095] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Dungeons was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.095] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Dungeons.Small Dungeon Max Banner Count was corrected from null to its default, 2. 
+[18May2025 21:08:33.096] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Dungeons.Small Dungeon Min Chest Count was corrected from null to its default, 1. 
+[18May2025 21:08:33.096] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Dungeons.Small Dungeon Max Chest Count was corrected from null to its default, 2. 
+[18May2025 21:08:33.097] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Dungeons.Allow Ore Blocks in Corners was corrected from null to its default, true. 
+[18May2025 21:08:33.098] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Nether Dungeons was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.099] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Nether Dungeons.Enable Small Nether Dungeons was corrected from null to its default, false. 
+[18May2025 21:08:33.100] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Nether Dungeons.Wither Skeletons From Spawners Drop Wither Skeleton Skulls was corrected from null to its default, true. 
+[18May2025 21:08:33.100] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Nether Dungeons.Blazes From Spawners Drop Blaze Rods was corrected from null to its default, true. 
+[18May2025 21:08:33.100] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key YUNG's Better Dungeons.Small Nether Dungeons.Small Nether Dungeon Max Banner Count was corrected from null to its default, 2. 
+[18May2025 21:08:33.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/ServerCrow/servidor_minecraft/config/zombieawareness/General.toml is not correct. Correcting
+[18May2025 21:08:33.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maxPFRangeSense was corrected from null to its default, 64. 
+[18May2025 21:08:33.121] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.awareness_Light_OnlyZombies was corrected from null to its default, true. 
+[18May2025 21:08:33.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.sightRange was corrected from null to its default, 16. 
+[18May2025 21:08:33.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.omniscient was corrected from null to its default, false. 
+[18May2025 21:08:33.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.seeThroughWalls was corrected from null to its default, false. 
+[18May2025 21:08:33.123] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.scentStrength was corrected from null to its default, 60. 
+[18May2025 21:08:33.123] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.soundStrength was corrected from null to its default, 60. 
+[18May2025 21:08:33.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.frequentSoundThreshold was corrected from null to its default, 1000. 
+[18May2025 21:08:33.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.zombieRandSpeedBoost was corrected from null to its default, 0.3. 
+[18May2025 21:08:33.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.tickRateAILoop was corrected from null to its default, 5. 
+[18May2025 21:08:33.126] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.tickRatePlayerLoop was corrected from null to its default, 20. 
+[18May2025 21:08:33.127] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.tickCooldownBetweenPathfinds was corrected from null to its default, 300. 
+[18May2025 21:08:33.127] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.noisyZombiesReinforceOddsTo1 was corrected from null to its default, 5. 
+[18May2025 21:08:33.127] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.debugConsole was corrected from null to its default, false. 
+[18May2025 21:08:33.127] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.debugConsoleOmniscient was corrected from null to its default, false. 
+[18May2025 21:08:33.127] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.debugConsoleSuperDetailed was corrected from null to its default, false. 
+[18May2025 21:08:33.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.extraScentCutoffRange was corrected from null to its default, 3.0. 
+[18May2025 21:08:33.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.senseMaxStrength was corrected from null to its default, 300. 
+[18May2025 21:08:33.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.daysBeforeFeaturesActivate was corrected from null to its default, 0.0. 
+[18May2025 21:08:33.128] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.blockBreakEvent_Active was corrected from null to its default, true. 
+[18May2025 21:08:33.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.blockHittingEvent_Active was corrected from null to its default, true. 
+[18May2025 21:08:33.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.blockHittingEvent_OddsTo1 was corrected from null to its default, 20. 
+[18May2025 21:08:33.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.blockBreakEvent_PlayersOnly was corrected from null to its default, false. 
+[18May2025 21:08:33.129] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.findSense_PercentChance was corrected from null to its default, 10. 
+[18May2025 21:08:33.138] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/ServerCrow/servidor_minecraft/config/zombieawareness/ClientConfig.toml is not correct. Correcting
+[18May2025 21:08:33.139] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.139] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.client_renderBlood was corrected from null to its default, true. 
+[18May2025 21:08:33.139] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.client_debugSensesVisual was corrected from null to its default, false. 
+[18May2025 21:08:33.142] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/ServerCrow/servidor_minecraft/config/zombieawareness/Features.toml is not correct. Correcting
+[18May2025 21:08:33.142] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.142] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.awareness_Sound was corrected from null to its default, true. 
+[18May2025 21:08:33.143] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.awareness_Scent was corrected from null to its default, true. 
+[18May2025 21:08:33.143] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.awareness_Light was corrected from null to its default, true. 
+[18May2025 21:08:33.143] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.noisyZombies was corrected from null to its default, true. 
+[18May2025 21:08:33.143] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.noisyPistons was corrected from null to its default, true. 
+[18May2025 21:08:33.143] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.wanderingHordes was corrected from null to its default, false. 
+[18May2025 21:08:33.144] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.frequencyOfWanderingHordesPerPlayer was corrected from null to its default, 30. 
+[18May2025 21:08:33.144] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.soundVolumeInvestigate was corrected from null to its default, 0.5. 
+[18May2025 21:08:33.144] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.soundVolumeAlertTarget was corrected from null to its default, 0.5. 
+[18May2025 21:08:33.144] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.soundAlerts was corrected from null to its default, true. 
+[18May2025 21:08:33.144] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.soundAlertsForAllAttackingMobs was corrected from null to its default, false. 
+[18May2025 21:08:33.144] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.soundInvestigates was corrected from null to its default, true. 
+[18May2025 21:08:33.144] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.soundUseAlternateAlertNoise was corrected from null to its default, false. 
+[18May2025 21:08:33.144] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.awareness_Sound_OverworldOnly was corrected from null to its default, false. 
+[18May2025 21:08:33.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/ServerCrow/servidor_minecraft/config/zombieawareness/MobLists.toml is not correct. Correcting
+[18May2025 21:08:33.150] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.150] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.enhancedMobs was corrected from null to its default, [minecraft:zombie, minecraft:husk, minecraft:creeper, minecraft:skeleton, minecraft:stray, minecraft:witch, minecraft:zombie_villager]. 
+[18May2025 21:08:33.151] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.enhanceableMobs was corrected from null to its default, []. 
+[18May2025 21:08:33.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/ServerCrow/servidor_minecraft/config/zombieawareness/PlayerRulesAndLists.toml is not correct. Correcting
+[18May2025 21:08:33.157] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.158] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.whiteListUsedOmniscient was corrected from null to its default, false. 
+[18May2025 21:08:33.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.whiteListUsedSenses was corrected from null to its default, false. 
+[18May2025 21:08:33.160] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.whitelistOmniscientTargettedPlayers was corrected from null to its default, Corosus, SomeDude. 
+[18May2025 21:08:33.160] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.whitelistSenses was corrected from null to its default, Corosus, SomeDude. 
+[18May2025 21:08:33.282] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[18May2025 21:08:33.296] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/ServerCrow/servidor_minecraft/config/CoroUtil/General.toml is not correct. Correcting
+[18May2025 21:08:33.296] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.297] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.useLoggingLog was corrected from null to its default, true. 
+[18May2025 21:08:33.298] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.useLoggingDebug was corrected from null to its default, false. 
+[18May2025 21:08:33.298] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.useLoggingError was corrected from null to its default, true. 
+[18May2025 21:08:33.300] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/ServerCrow/servidor_minecraft/config/endofherobrine-common.toml is not correct. Correcting
+[18May2025 21:08:33.302] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.302] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.experimental was corrected from null to its default, false. 
+[18May2025 21:08:33.303] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.legacyStructures was corrected from null to its default, false. 
+[18May2025 21:08:33.304] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.progressiveWrath was corrected from null to its default, true. 
+[18May2025 21:08:33.304] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.mobPossession was corrected from null to its default, true. 
+[18May2025 21:08:33.304] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.revertPossession was corrected from null to its default, true. 
+[18May2025 21:08:33.304] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.remainPossessedTicks was corrected from null to its default, 12000. 
+[18May2025 21:08:33.305] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.blacklistPossession was corrected from null to its default, . 
+[18May2025 21:08:33.305] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.spawnCooldown was corrected from null to its default, 3600. 
+[18May2025 21:08:33.308] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.spawnChance was corrected from null to its default, 10. 
+[18May2025 21:08:33.308] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.spawnBuilder was corrected from null to its default, true. 
+[18May2025 21:08:33.312] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/ServerCrow/servidor_minecraft/config/spartanweaponry-common.toml is not correct. Correcting
+[18May2025 21:08:33.313] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dagger was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.313] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dagger.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.313] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dagger.speed was corrected from null to its default, 2.5. 
+[18May2025 21:08:33.313] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dagger.base_damage was corrected from null to its default, 2.5. 
+[18May2025 21:08:33.313] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dagger.damage_multiplier was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.316] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key parrying_dagger was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.316] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key parrying_dagger.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.316] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key parrying_dagger.speed was corrected from null to its default, 2.5. 
+[18May2025 21:08:33.319] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key parrying_dagger.base_damage was corrected from null to its default, 2.5. 
+[18May2025 21:08:33.319] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key parrying_dagger.damage_multiplier was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.320] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key longsword was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.320] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key longsword.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.321] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key longsword.speed was corrected from null to its default, 1.399999976158142. 
+[18May2025 21:08:33.321] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key longsword.base_damage was corrected from null to its default, 4.5. 
+[18May2025 21:08:33.321] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key longsword.damage_multiplier was corrected from null to its default, 1.5. 
+[18May2025 21:08:33.324] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key katana was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.324] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key katana.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.324] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key katana.speed was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.325] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key katana.base_damage was corrected from null to its default, 3.5. 
+[18May2025 21:08:33.327] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key katana.damage_multiplier was corrected from null to its default, 0.5. 
+[18May2025 21:08:33.327] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key saber was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.328] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key saber.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.328] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key saber.speed was corrected from null to its default, 1.600000023841858. 
+[18May2025 21:08:33.330] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key saber.base_damage was corrected from null to its default, 3.5. 
+[18May2025 21:08:33.330] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key saber.damage_multiplier was corrected from null to its default, 0.5. 
+[18May2025 21:08:33.330] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rapier was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.331] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rapier.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.331] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rapier.speed was corrected from null to its default, 2.4000000953674316. 
+[18May2025 21:08:33.331] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rapier.base_damage was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.331] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rapier.damage_multiplier was corrected from null to its default, 0.5. 
+[18May2025 21:08:33.333] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key greatsword was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.334] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key greatsword.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.336] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key greatsword.speed was corrected from null to its default, 1.399999976158142. 
+[18May2025 21:08:33.336] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key greatsword.base_damage was corrected from null to its default, 4.0. 
+[18May2025 21:08:33.336] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key greatsword.damage_multiplier was corrected from null to its default, 1.5. 
+[18May2025 21:08:33.338] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key club was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.338] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key club.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.339] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key club.speed was corrected from null to its default, 1.2999999523162842. 
+[18May2025 21:08:33.339] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key club.base_damage was corrected from null to its default, 4.0. 
+[18May2025 21:08:33.341] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key club.damage_multiplier was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.342] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cestus was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.344] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cestus.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.344] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cestus.speed was corrected from null to its default, 3.5. 
+[18May2025 21:08:33.344] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cestus.base_damage was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.345] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cestus.damage_multiplier was corrected from null to its default, 0.5. 
+[18May2025 21:08:33.347] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key battle_hammer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.347] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key battle_hammer.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.349] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key battle_hammer.speed was corrected from null to its default, 0.800000011920929. 
+[18May2025 21:08:33.350] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key battle_hammer.base_damage was corrected from null to its default, 5.0. 
+[18May2025 21:08:33.351] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key battle_hammer.damage_multiplier was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.352] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key warhammer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.352] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key warhammer.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.355] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key warhammer.speed was corrected from null to its default, 1.100000023841858. 
+[18May2025 21:08:33.355] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key warhammer.base_damage was corrected from null to its default, 4.0. 
+[18May2025 21:08:33.356] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key warhammer.damage_multiplier was corrected from null to its default, 1.5. 
+[18May2025 21:08:33.356] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spear was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.357] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spear.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.358] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spear.speed was corrected from null to its default, 1.399999976158142. 
+[18May2025 21:08:33.359] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spear.base_damage was corrected from null to its default, 5.5. 
+[18May2025 21:08:33.360] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spear.damage_multiplier was corrected from null to its default, 0.5. 
+[18May2025 21:08:33.361] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key halberd was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.363] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key halberd.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.363] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key halberd.speed was corrected from null to its default, 1.2000000476837158. 
+[18May2025 21:08:33.363] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key halberd.base_damage was corrected from null to its default, 5.0. 
+[18May2025 21:08:33.365] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key halberd.damage_multiplier was corrected from null to its default, 1.5. 
+[18May2025 21:08:33.366] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key pike was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.367] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key pike.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.367] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key pike.speed was corrected from null to its default, 1.399999976158142. 
+[18May2025 21:08:33.367] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key pike.base_damage was corrected from null to its default, 4.0. 
+[18May2025 21:08:33.368] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key pike.damage_multiplier was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.370] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lance was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.371] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lance.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.372] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lance.speed was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.373] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lance.base_damage was corrected from null to its default, 4.0. 
+[18May2025 21:08:33.374] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lance.damage_multiplier was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.377] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key longbow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.377] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key longbow.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.380] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key heavy_crossbow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.380] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key heavy_crossbow.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.383] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key throwing_knife was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.384] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key throwing_knife.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.385] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key throwing_knife.speed was corrected from null to its default, 2.5. 
+[18May2025 21:08:33.386] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key throwing_knife.base_damage was corrected from null to its default, 1.5. 
+[18May2025 21:08:33.387] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key throwing_knife.damage_multiplier was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.388] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key throwing_knife.charge_ticks was corrected from null to its default, 5. 
+[18May2025 21:08:33.392] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tomahawk was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.393] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tomahawk.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.394] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tomahawk.speed was corrected from null to its default, 0.8999999761581421. 
+[18May2025 21:08:33.394] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tomahawk.base_damage was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.394] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tomahawk.damage_multiplier was corrected from null to its default, 1.5. 
+[18May2025 21:08:33.395] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tomahawk.charge_ticks was corrected from null to its default, 8. 
+[18May2025 21:08:33.398] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key javelin was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.398] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key javelin.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.400] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key javelin.speed was corrected from null to its default, 1.2000000476837158. 
+[18May2025 21:08:33.400] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key javelin.base_damage was corrected from null to its default, 1.5. 
+[18May2025 21:08:33.400] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key javelin.damage_multiplier was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.401] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key javelin.charge_ticks was corrected from null to its default, 10. 
+[18May2025 21:08:33.404] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boomerang was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.405] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boomerang.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.407] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boomerang.speed was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.407] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boomerang.base_damage was corrected from null to its default, 4.0. 
+[18May2025 21:08:33.407] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boomerang.damage_multiplier was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.408] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key boomerang.charge_ticks was corrected from null to its default, 5. 
+[18May2025 21:08:33.409] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key battleaxe was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.410] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key battleaxe.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.412] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key battleaxe.speed was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.413] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key battleaxe.base_damage was corrected from null to its default, 4.0. 
+[18May2025 21:08:33.414] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key battleaxe.damage_multiplier was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.416] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key flanged_mace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.416] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key flanged_mace.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.417] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key flanged_mace.speed was corrected from null to its default, 1.2000000476837158. 
+[18May2025 21:08:33.418] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key flanged_mace.base_damage was corrected from null to its default, 3.0. 
+[18May2025 21:08:33.419] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key flanged_mace.damage_multiplier was corrected from null to its default, 1.5. 
+[18May2025 21:08:33.421] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key glaive was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.421] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key glaive.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.424] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key glaive.speed was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.424] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key glaive.base_damage was corrected from null to its default, 4.0. 
+[18May2025 21:08:33.424] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key glaive.damage_multiplier was corrected from null to its default, 1.5. 
+[18May2025 21:08:33.426] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key quarterstaff was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.427] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key quarterstaff.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.428] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key quarterstaff.speed was corrected from null to its default, 1.399999976158142. 
+[18May2025 21:08:33.429] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key quarterstaff.base_damage was corrected from null to its default, 3.0. 
+[18May2025 21:08:33.430] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key quarterstaff.damage_multiplier was corrected from null to its default, 1.5. 
+[18May2025 21:08:33.437] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scythes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.439] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scythes.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.440] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scythes.speed was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.442] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scythes.base_damage was corrected from null to its default, 5.0. 
+[18May2025 21:08:33.442] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scythes.damage_multiplier was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.445] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copper was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.445] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copper.base_damage was corrected from null to its default, 1.5. 
+[18May2025 21:08:33.446] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copper.durability was corrected from null to its default, 200. 
+[18May2025 21:08:33.447] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copper.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.451] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tin was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.453] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tin.base_damage was corrected from null to its default, 1.75. 
+[18May2025 21:08:33.453] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tin.durability was corrected from null to its default, 180. 
+[18May2025 21:08:33.453] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tin.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.457] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bronze was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.458] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bronze.base_damage was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.458] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bronze.durability was corrected from null to its default, 320. 
+[18May2025 21:08:33.458] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bronze.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.462] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key steel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.463] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key steel.base_damage was corrected from null to its default, 2.5. 
+[18May2025 21:08:33.464] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key steel.durability was corrected from null to its default, 480. 
+[18May2025 21:08:33.464] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key steel.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.467] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key silver was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.467] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key silver.base_damage was corrected from null to its default, 1.5. 
+[18May2025 21:08:33.468] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key silver.durability was corrected from null to its default, 48. 
+[18May2025 21:08:33.469] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key silver.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.471] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electrum was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.471] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electrum.base_damage was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.471] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electrum.durability was corrected from null to its default, 180. 
+[18May2025 21:08:33.472] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electrum.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.475] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lead was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.475] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lead.base_damage was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.476] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lead.durability was corrected from null to its default, 240. 
+[18May2025 21:08:33.476] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lead.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.479] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nickel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.480] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nickel.base_damage was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.481] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nickel.durability was corrected from null to its default, 200. 
+[18May2025 21:08:33.481] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nickel.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.483] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key invar was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.484] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key invar.base_damage was corrected from null to its default, 2.25. 
+[18May2025 21:08:33.485] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key invar.durability was corrected from null to its default, 440. 
+[18May2025 21:08:33.485] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key invar.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.488] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key constantan was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.489] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key constantan.base_damage was corrected from null to its default, 2.25. 
+[18May2025 21:08:33.489] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key constantan.durability was corrected from null to its default, 300. 
+[18May2025 21:08:33.489] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key constantan.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.491] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key platinum was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.492] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key platinum.base_damage was corrected from null to its default, 3.5. 
+[18May2025 21:08:33.493] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key platinum.durability was corrected from null to its default, 1024. 
+[18May2025 21:08:33.495] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key platinum.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.496] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key aluminum was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.497] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key aluminum.base_damage was corrected from null to its default, 2.125. 
+[18May2025 21:08:33.498] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key aluminum.durability was corrected from null to its default, 400. 
+[18May2025 21:08:33.499] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key aluminum.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.501] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key explosives was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.502] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key explosives.disable_recipe was corrected from null to its default, false. 
+[18May2025 21:08:33.505] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key explosives.disable_terrain_damage was corrected from null to its default, false. 
+[18May2025 21:08:33.505] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key explosives.fuse_ticks_dynamite was corrected from null to its default, 60. 
+[18May2025 21:08:33.505] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key explosives.explosion_strength_dynamite was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.507] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.507] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.disable_new_arrow_recipes was corrected from null to its default, false. 
+[18May2025 21:08:33.508] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.disable_copper_ammo_recipes was corrected from null to its default, false. 
+[18May2025 21:08:33.509] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.disable_diamond_ammo_recipes was corrected from null to its default, false. 
+[18May2025 21:08:33.510] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.disable_netherite_ammo_recipes was corrected from null to its default, false. 
+[18May2025 21:08:33.511] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.disable_quiver_recipes was corrected from null to its default, false. 
+[18May2025 21:08:33.512] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.wood_arrow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.514] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.wood_arrow.base_damage was corrected from null to its default, 0.20000000298023224. 
+[18May2025 21:08:33.514] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.wood_arrow.range_multiplier was corrected from null to its default, 1.5. 
+[18May2025 21:08:33.514] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.copper_arrow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.514] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.copper_arrow.base_damage was corrected from null to its default, 2.5. 
+[18May2025 21:08:33.515] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.copper_arrow.range_multiplier was corrected from null to its default, 0.8500000238418579. 
+[18May2025 21:08:33.515] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.iron_arrow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.516] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.iron_arrow.base_damage was corrected from null to its default, 3.0. 
+[18May2025 21:08:33.516] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.iron_arrow.range_multiplier was corrected from null to its default, 0.75. 
+[18May2025 21:08:33.517] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.diamond_arrow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.518] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.diamond_arrow.base_damage was corrected from null to its default, 3.5. 
+[18May2025 21:08:33.519] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.diamond_arrow.range_multiplier was corrected from null to its default, 1.25. 
+[18May2025 21:08:33.519] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.netherite_arrow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.520] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.netherite_arrow.base_damage was corrected from null to its default, 4.0. 
+[18May2025 21:08:33.520] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.netherite_arrow.range_multiplier was corrected from null to its default, 1.25. 
+[18May2025 21:08:33.521] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.bolt was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.522] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.bolt.base_damage was corrected from null to its default, 4.0. 
+[18May2025 21:08:33.522] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.bolt.range_multiplier was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.523] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.bolt.armor_piercing_factor was corrected from null to its default, 0.25. 
+[18May2025 21:08:33.524] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.copper_bolt was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.524] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.copper_bolt.base_damage was corrected from null to its default, 3.5. 
+[18May2025 21:08:33.525] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.copper_bolt.range_multiplier was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.525] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.copper_bolt.armor_piercing_factor was corrected from null to its default, 0.125. 
+[18May2025 21:08:33.526] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.diamond_bolt was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.527] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.diamond_bolt.base_damage was corrected from null to its default, 5.0. 
+[18May2025 21:08:33.527] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.diamond_bolt.range_multiplier was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.528] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.diamond_bolt.armor_piercing_factor was corrected from null to its default, 0.5. 
+[18May2025 21:08:33.528] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.netherite_bolt was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.529] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.netherite_bolt.base_damage was corrected from null to its default, 5.5. 
+[18May2025 21:08:33.529] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.netherite_bolt.range_multiplier was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.529] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.netherite_bolt.armor_piercing_factor was corrected from null to its default, 0.5. 
+[18May2025 21:08:33.530] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.explosive was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.530] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.explosive.base_damage was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.531] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.explosive.range_multiplier was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.533] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key projectiles.quiver_bow_blacklist was corrected from null to its default, [botania:crystal_bow, iceandfire:dragonbone_bow]. 
+[18May2025 21:08:33.538] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.538] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.add_iron_weapons_to_village_blacksmith was corrected from null to its default, true. 
+[18May2025 21:08:33.539] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.add_bow_and_crossbow_loot_to_village_fletcher was corrected from null to its default, true. 
+[18May2025 21:08:33.540] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.add_diamond_weapons_to_end_city was corrected from null to its default, true. 
+[18May2025 21:08:33.540] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.zombie_with_melee_spawn_chance_normal was corrected from null to its default, 0.05000000074505806. 
+[18May2025 21:08:33.541] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.zombie_with_melee_spawn_chance_hard was corrected from null to its default, 0.25. 
+[18May2025 21:08:33.541] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.disable_spawning_zombie_with_weapon was corrected from null to its default, false. 
+[18May2025 21:08:33.541] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.skeleton_with_longbow_spawn_chance_normal was corrected from null to its default, 0.05000000074505806. 
+[18May2025 21:08:33.542] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.skeleton_with_longbow_spawn_chance_hard was corrected from null to its default, 0.25. 
+[18May2025 21:08:33.542] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.disable_spawning_skeleton_with_longbow was corrected from null to its default, false. 
+[18May2025 21:08:33.544] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.disable_new_head_drops was corrected from null to its default, false. 
+[18May2025 21:08:33.547] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trading was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.547] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trading.disable was corrected from null to its default, false. 
+[18May2025 21:08:33.550] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.551] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.551] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.chest_multiplier was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.551] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.head_multiplier was corrected from null to its default, 1.5. 
+[18May2025 21:08:33.552] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.riding_multiplier was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.552] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.throw_multiplier was corrected from null to its default, 2.0. 
+[18May2025 21:08:33.553] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.throw_javelin_multiplier was corrected from null to its default, 3.0. 
+[18May2025 21:08:33.553] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.unarmored_multiplier was corrected from null to its default, 3.0. 
+[18May2025 21:08:33.554] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.check_armor_value was corrected from null to its default, false. 
+[18May2025 21:08:33.555] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.max_armor_value was corrected from null to its default, 0.0. 
+[18May2025 21:08:33.556] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.undead_multiplier was corrected from null to its default, 1.5. 
+[18May2025 21:08:33.558] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.damage_bonus.backstab_multiplier was corrected from null to its default, 3.0. 
+[18May2025 21:08:33.558] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.damage_absorption was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.559] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.damage_absorption.damage_absorption_factor was corrected from null to its default, 0.25. 
+[18May2025 21:08:33.559] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.reach was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.560] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.reach.reach1_value was corrected from null to its default, 6.0. 
+[18May2025 21:08:33.560] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.reach.reach2_value was corrected from null to its default, 7.0. 
+[18May2025 21:08:33.561] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.sweep was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.561] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.sweep.sweep2_percentage was corrected from null to its default, 0.5. 
+[18May2025 21:08:33.562] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.sweep.sweep3_percentage was corrected from null to its default, 1.0. 
+[18May2025 21:08:33.562] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.armor_pierce was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.563] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.armor_pierce.percentage was corrected from null to its default, 50.0. 
+[18May2025 21:08:33.563] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.quick_strike was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.564] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.quick_strike.hurt_resistance_ticks was corrected from null to its default, 14. 
+[18May2025 21:08:33.564] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.decapitate was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.564] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key traits.decapitate.skull_drop_percentage was corrected from null to its default, 25.0. 
+[18May2025 21:08:33.567] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oil was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.568] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oil.disable_oil_recipes was corrected from null to its default, false. 
+[18May2025 21:08:33.569] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oil.oil_uses_normal was corrected from null to its default, 20. 
+[18May2025 21:08:33.570] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oil.oil_uses_long was corrected from null to its default, 30. 
+[18May2025 21:08:33.571] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oil.oil_damage_modifier_normal was corrected from null to its default, 0.20000000298023224. 
+[18May2025 21:08:33.572] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oil.oil_damage_modifier_strong was corrected from null to its default, 0.4000000059604645. 
+[18May2025 21:08:33.572] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oil.potion_oil_duration_modifier was corrected from null to its default, 0.25. 
+[18May2025 21:08:33.572] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oil.potion_oil_blacklist was corrected from null to its default, []. 
+[18May2025 21:08:33.573] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key oil.potion_oil_whitelist was corrected from null to its default, []. 
+[18May2025 21:08:33.578] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:33.578] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key jei.force_show_disabled_items was corrected from null to its default, false. 
+[18May2025 21:08:33.581] [Thread-2/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/ServerCrow/servidor_minecraft/config/spartanweaponry-common.toml is not correct. Correcting
+[18May2025 21:08:34.112] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[18May2025 21:08:34.571] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[18May2025 21:08:34.583] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[18May2025 21:08:34.596] [main/INFO] [journeymap/]: Initializing Packet Registries
+[18May2025 21:08:34.708] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[18May2025 21:08:34.712] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18May2025 21:08:35.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[18May2025 21:08:35.252] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[18May2025 21:08:35.337] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.9.4 Target: null
+[18May2025 21:08:39.046] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18May2025 21:08:39.486] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: zombieawareness:alert Expected: 1713 Got: 2242
+[18May2025 21:08:39.490] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: zombieawareness:target Expected: 1714 Got: 2243
+[18May2025 21:08:39.493] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: zombieawareness:investigate Expected: 1715 Got: 2244
+[18May2025 21:08:39.496] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: zombieawareness:scent Expected: 277 Got: 368
+[18May2025 21:08:41.753] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/assets/.mcassetsroot' uses unexpected schema
+[18May2025 21:08:41.754] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/data/.mcassetsroot' uses unexpected schema
+[18May2025 21:08:44.316] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
+[18May2025 21:08:44.342] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[18May2025 21:08:45.184] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:prionmod:entities/thrall
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:fat'
-	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
@@ -71,10 +449,10 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
@@ -82,20 +460,20 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.0-universal.jar%23142!/:?]
-	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.0-universal.jar%23142!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.0-universal.jar%23156!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.0-universal.jar%23156!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
@@ -103,19 +481,22 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[18May2025 20:18:01.529] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:prionmod:entities/infectedsheep
+[18May2025 21:08:45.511] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[18May2025 21:08:45.538] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[18May2025 21:08:45.648] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[18May2025 21:08:45.721] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:prionmod:entities/infectedsheep
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:wool'
-	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
@@ -123,10 +504,10 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
@@ -134,20 +515,20 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.0-universal.jar%23142!/:?]
-	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.0-universal.jar%23142!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.0-universal.jar%23156!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.0-universal.jar%23156!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23151!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
@@ -155,52 +536,150 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[18May2025 20:18:02.091] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
-[18May2025 20:18:02.455] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[18May2025 20:18:02.498] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
-[18May2025 20:18:02.526] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
-[18May2025 20:18:02.606] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
-[18May2025 20:18:02.628] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
-[18May2025 20:18:02.714] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1817 advancements
-[18May2025 20:18:02.722] [main/INFO] [placebo/]: Registered 0 additional recipes.
-[18May2025 20:18:02.740] [main/INFO] [placebo/]: Registered 0 gear_sets.
-[18May2025 20:18:04.412] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[18May2025 20:18:04.414] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[18May2025 20:18:04.414] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[18May2025 20:18:04.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[18May2025 20:18:04.572] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[18May2025 20:18:04.621] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[18May2025 20:18:04.788] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18May2025 20:18:04.789] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[18May2025 20:18:04.790] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18May2025 20:18:04.792] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[18May2025 20:18:04.832] [Thread-2/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
-[18May2025 20:18:04.836] [Thread-2/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
-[18May2025 20:18:05.010] [Server thread/ERROR] [mixin/]: Injection error: LVT in net/minecraft/world/entity/npc/VillagerTrades$EmeraldsForVillagerTypeItem::m_213663_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer; has incompatible changes at opcode 34 in callback fabric-object-builder-v1.mixins.json:TradeOffersTypeAwareBuyForOneEmeraldFactoryMixin from mod fabric_object_builder_api_v1->@Inject::failOnNullItem(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/item/ItemStack;)V.
+[18May2025 21:08:46.273] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[18May2025 21:08:46.574] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[18May2025 21:08:46.576] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
+[18May2025 21:08:46.599] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[18May2025 21:08:46.600] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
+[18May2025 21:08:46.607] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[18May2025 21:08:46.607] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
+[18May2025 21:08:46.638] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[18May2025 21:08:46.641] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
+[18May2025 21:08:46.641] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
+[18May2025 21:08:46.642] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_smelting_copper_weapons as it's serializer returned null
+[18May2025 21:08:46.642] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[18May2025 21:08:46.642] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
+[18May2025 21:08:46.643] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[18May2025 21:08:46.645] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
+[18May2025 21:08:46.666] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[18May2025 21:08:46.668] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
+[18May2025 21:08:46.672] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[18May2025 21:08:46.673] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_blasting_steel_weapons as it's serializer returned null
+[18May2025 21:08:46.677] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[18May2025 21:08:46.679] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
+[18May2025 21:08:46.681] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[18May2025 21:08:46.683] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
+[18May2025 21:08:46.701] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[18May2025 21:08:46.704] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
+[18May2025 21:08:46.704] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[18May2025 21:08:46.704] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
+[18May2025 21:08:46.717] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[18May2025 21:08:46.719] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
+[18May2025 21:08:46.722] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[18May2025 21:08:46.723] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
+[18May2025 21:08:46.729] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[18May2025 21:08:46.731] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
+[18May2025 21:08:46.742] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[18May2025 21:08:46.743] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_smelting_steel_weapons as it's serializer returned null
+[18May2025 21:08:46.747] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[18May2025 21:08:46.747] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
+[18May2025 21:08:46.752] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
+[18May2025 21:08:46.752] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_smelting_silver_weapons as it's serializer returned null
+[18May2025 21:08:46.759] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[18May2025 21:08:46.760] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
+[18May2025 21:08:46.760] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
+[18May2025 21:08:46.761] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_blasting_silver_weapons as it's serializer returned null
+[18May2025 21:08:46.763] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
+[18May2025 21:08:46.763] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_blasting_copper_weapons as it's serializer returned null
+[18May2025 21:08:46.765] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[18May2025 21:08:46.765] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
+[18May2025 21:08:46.766] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[18May2025 21:08:46.766] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
+[18May2025 21:08:46.775] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[18May2025 21:08:46.841] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[18May2025 21:08:46.891] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[18May2025 21:08:46.988] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[18May2025 21:08:47.022] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[18May2025 21:08:47.108] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2368 advancements
+[18May2025 21:08:47.116] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[18May2025 21:08:47.140] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[18May2025 21:08:48.629] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 5.897844ms
+[18May2025 21:08:48.828] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[18May2025 21:08:48.828] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[18May2025 21:08:48.829] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[18May2025 21:08:48.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18May2025 21:08:49.067] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[18May2025 21:08:49.119] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[18May2025 21:08:49.271] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18May2025 21:08:49.272] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[18May2025 21:08:49.272] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18May2025 21:08:49.273] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[18May2025 21:08:49.302] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/journeymap-server.toml is not correct. Correcting
+[18May2025 21:08:49.304] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:49.304] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.opAccess was corrected from null to its default, true. 
+[18May2025 21:08:49.305] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.serverAdmins was corrected from null to its default, [mysticdrew, 79f597fe-2877-4ecb-acdf-8c58cc1854ca]. 
+[18May2025 21:08:49.307] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[18May2025 21:08:49.308] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[18May2025 21:08:49.312] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[18May2025 21:08:49.329] [Thread-2/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[18May2025 21:08:49.330] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/endofherobrine-server.toml is not correct. Correcting
+[18May2025 21:08:49.331] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2025 21:08:49.332] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.experimental was corrected from null to its default, false. 
+[18May2025 21:08:49.333] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.legacyStructures was corrected from null to its default, false. 
+[18May2025 21:08:49.333] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.progressiveWrath was corrected from null to its default, true. 
+[18May2025 21:08:49.334] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.mobPossession was corrected from null to its default, true. 
+[18May2025 21:08:49.335] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.revertPossession was corrected from null to its default, true. 
+[18May2025 21:08:49.335] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.remainPossessedTicks was corrected from null to its default, 12000. 
+[18May2025 21:08:49.336] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.blacklistPossession was corrected from null to its default, . 
+[18May2025 21:08:49.336] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.spawnCooldown was corrected from null to its default, 3600. 
+[18May2025 21:08:49.337] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.spawnChance was corrected from null to its default, 10. 
+[18May2025 21:08:49.337] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.spawnBuilder was corrected from null to its default, true. 
+[18May2025 21:08:49.559] [Server thread/ERROR] [mixin/]: Injection error: LVT in net/minecraft/world/entity/npc/VillagerTrades$EmeraldsForVillagerTypeItem::m_213663_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer; has incompatible changes at opcode 34 in callback fabric-object-builder-v1.mixins.json:TradeOffersTypeAwareBuyForOneEmeraldFactoryMixin from mod fabric_object_builder_api_v1->@Inject::failOnNullItem(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/item/ItemStack;)V.
  Expected: [Lnet/minecraft/world/item/ItemStack;]
     Found: [Lnet/minecraft/world/item/Item;]
 Available: [Lnet/minecraft/world/item/Item;, Lnet/minecraft/world/item/ItemStack;]
-[18May2025 20:18:05.029] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[18May2025 20:18:14.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[18May2025 20:18:21.745] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:21.813] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:21.851] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:21.890] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:21.922] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:21.970] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:22.004] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:22.073] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:22.103] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:22.126] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:22.155] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:22.171] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:22.190] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:22.196] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:22.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:22.206] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:22.618] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:23.118] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:23.618] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 20:18:24.220] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9603 ms
-[18May2025 20:18:24.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.404s)! For help, type "help"
-[18May2025 20:18:24.268] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[18May2025 21:08:49.585] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[18May2025 21:08:59.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18May2025 21:09:08.127] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.169] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.204] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.205] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.208] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.209] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.211] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.212] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.213] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.215] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.217] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.220] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.222] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.225] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.227] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.229] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.231] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.234] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.386] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:08.887] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:09.387] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:09.889] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 21:09:10.614] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11229 ms
+[18May2025 21:09:10.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (21.317s)! For help, type "help"
+[18May2025 21:09:10.678] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[18May2025 21:09:10.702] [Server thread/INFO] [journeymap/]: global (FirstLoaded) Setting config file to version "5.10.3": journeymap.server.global.config
+[18May2025 21:09:10.703] [Server thread/INFO] [journeymap/]: global (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.global.config
+[18May2025 21:09:10.723] [Server thread/INFO] [journeymap/]: default (FirstLoaded) Setting config file to version "5.10.3": journeymap.server.default.config
+[18May2025 21:09:10.724] [Server thread/INFO] [journeymap/]: default (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.default.config
+[18May2025 21:09:10.728] [Server thread/INFO] [journeymap/]: minecraft~overworld (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~overworld.config
+[18May2025 21:09:10.729] [Server thread/INFO] [journeymap/]: minecraft~overworld (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~overworld.config
+[18May2025 21:09:10.750] [Server thread/INFO] [journeymap/]: minecraft~the_nether (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~the_nether.config
+[18May2025 21:09:10.750] [Server thread/INFO] [journeymap/]: minecraft~the_nether (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~the_nether.config
+[18May2025 21:09:10.754] [Server thread/INFO] [journeymap/]: minecraft~the_end (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~the_end.config
+[18May2025 21:09:10.756] [Server thread/INFO] [journeymap/]: minecraft~the_end (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~the_end.config
+[18May2025 21:09:46.997] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ram_zzz[/100.117.116.41:50253] logged in with entity id 665 at (-51.69999998807907, 17.0, 289.30000001192093)
+[18May2025 21:09:47.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ram_zzz joined the game
+[18May2025 21:09:49.609] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5678e984[id=<null>,name=Xandroid3X,properties={},legacy=false] (/100.102.20.95:1978) lost connection: Disconnected
+[18May2025 21:14:54.555] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: junioxd[/100.83.92.16:65493] logged in with entity id 1589 at (-103.84452973548855, 78.11874380792699, 149.79865798232893)
+[18May2025 21:14:54.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd joined the game
+[18May2025 21:15:03.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> JUN
+[18May2025 21:15:13.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> ando en la superficie aguanta
+[18May2025 21:15:16.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> hermano me estan campeando arriba unos zombies
+[18May2025 21:15:39.168] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityHummingbird['Hummingbird'/2005, l='ServerLevel[world]', x=-385.00, y=65.00, z=184.00]
+[18May2025 21:16:13.235] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2071ms or 41 ticks behind
+[18May2025 21:16:50.754] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
+[18May2025 21:16:54.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> dios
+[18May2025 21:16:58.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ya entré a la casa
+[18May2025 21:17:05.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> tenia 4 creepers en mi cabeza
+[18May2025 21:17:08.112] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2399ms or 47 ticks behind
+[18May2025 21:17:08.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> estoy buscando comida
+[18May2025 21:17:11.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> va
+[18May2025 21:17:26.121] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
