@@ -747,6 +747,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/stone_saber": {
     "criteria": {
       "has_cobblestone": "2025-05-18 22:25:40 +0000"
@@ -756,6 +762,12 @@
   "spartanweaponry:recipes/iron_javelin": {
     "criteria": {
       "has_iron_ingot": "2025-05-18 22:29:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
     },
     "done": true
   },
@@ -777,6 +789,12 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/diamond_spear": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/stone_greatsword": {
     "criteria": {
       "has_cobblestone": "2025-05-18 22:25:40 +0000"
@@ -792,6 +810,36 @@
   "spartanweaponry:recipes/stone_longsword": {
     "criteria": {
       "has_cobblestone": "2025-05-18 22:25:40 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_katana": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_parrying_dagger": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_quarterstaff": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/huge_quiver_brace": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
     },
     "done": true
   },
@@ -873,9 +921,33 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/diamond_saber": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/large_quiver_brace": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/stone_parrying_dagger": {
     "criteria": {
       "has_cobblestone": "2025-05-18 22:25:40 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_tomahawk": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_warhammer": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
     },
     "done": true
   },
@@ -897,15 +969,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_javelin": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/combat/pole_from_leather": {
     "criteria": {
       "has_stick": "2025-05-18 22:22:20 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/wooden_pike": {
     "criteria": {
       "has_wood": "2025-05-18 22:21:45 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_battleaxe": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_boomerang": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
     },
     "done": true
   },
@@ -933,6 +1041,12 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/diamond_scythe": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/iron_warhammer": {
     "criteria": {
       "has_iron_ingot": "2025-05-18 22:29:33 +0000"
@@ -954,6 +1068,18 @@
   "spartanweaponry:recipes/wooden_halberd": {
     "criteria": {
       "has_wood": "2025-05-18 22:21:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
     },
     "done": true
   },
@@ -993,6 +1119,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/wooden_katana": {
     "criteria": {
       "has_wood": "2025-05-18 22:21:45 +0000"
@@ -1002,6 +1134,12 @@
   "spartanweaponry:recipes/iron_lance": {
     "criteria": {
       "has_iron_ingot": "2025-05-18 22:29:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
     },
     "done": true
   },
@@ -1035,6 +1173,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_flanged_mace": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/stone_boomerang": {
     "criteria": {
       "has_cobblestone": "2025-05-18 22:25:40 +0000"
@@ -1059,15 +1209,39 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/diamond_pike": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-18 22:32:00 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/stone_lance": {
     "criteria": {
       "has_cobblestone": "2025-05-18 22:25:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
     },
     "done": true
   },
@@ -1113,6 +1287,42 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/diamond_halberd": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_heavy_crossbow": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_longbow": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/wooden_dagger": {
     "criteria": {
       "has_wood": "2025-05-18 22:21:45 +0000"
@@ -1128,6 +1338,12 @@
   "spartanweaponry:recipes/wooden_greatsword": {
     "criteria": {
       "has_wood": "2025-05-18 22:21:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
     },
     "done": true
   },
@@ -1161,6 +1377,12 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/diamond_greatsword": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/iron_greatsword": {
     "criteria": {
       "has_iron_ingot": "2025-05-18 22:29:33 +0000"
@@ -1185,9 +1407,21 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/diamond_lance": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/wooden_boomerang": {
     "criteria": {
       "has_wood": "2025-05-18 22:21:45 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_longsword": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
     },
     "done": true
   },
@@ -1239,6 +1473,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/wooden_flanged_mace": {
     "criteria": {
       "has_wood": "2025-05-18 22:21:45 +0000"
@@ -1248,6 +1488,12 @@
   "spartanweaponry:recipes/combat/pole_from_string": {
     "criteria": {
       "has_stick": "2025-05-18 22:22:20 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_rapier": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
     },
     "done": true
   },
@@ -1269,6 +1515,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/wooden_tomahawk": {
     "criteria": {
       "has_wood": "2025-05-18 22:21:45 +0000"
@@ -1287,6 +1539,12 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/diamond_battle_hammer": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/andesite_wall": {
     "criteria": {
       "has_andesite": "2025-05-18 22:32:00 +0000"
@@ -1296,6 +1554,12 @@
   "minecraft:recipes/building_blocks/andesite_slab": {
     "criteria": {
       "has_andesite": "2025-05-18 22:32:00 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_throwing_knife": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
     },
     "done": true
   },
@@ -1329,9 +1593,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-05-18 22:36:53 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_dagger": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-05-18 22:32:31 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/diamond_glaive": {
+    "criteria": {
+      "has_diamond": "2025-05-18 22:39:08 +0000"
     },
     "done": true
   },
