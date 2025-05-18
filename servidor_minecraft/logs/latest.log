@@ -1,57 +1,59 @@
-[18May2025 00:58:22.233] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[18May2025 00:58:22.255] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[18May2025 00:58:23.586] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[18May2025 00:58:23.626] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[18May2025 00:58:23.697] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[18May2025 00:58:23.755] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[18May2025 00:58:23.919] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ServerCrow/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar%23116%23119!/ Service=ModLauncher Env=SERVER
-[18May2025 00:58:24.731] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[18May2025 00:58:24.736] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[18May2025 00:58:24.741] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[18May2025 00:58:24.744] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[18May2025 00:58:25.903] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 48 dependencies adding them to mods collection
-[18May2025 00:58:27.486] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 1 candidates to load
-[18May2025 00:58:30.591] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
-[18May2025 00:58:33.064] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[18May2025 00:58:33.428] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[18May2025 00:58:34.715] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
-[18May2025 00:58:35.515] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[18May2025 00:58:35.683] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[18May2025 00:58:36.533] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
-[18May2025 00:58:36.534] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
-[18May2025 00:58:36.535] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
-[18May2025 00:58:36.543] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[18May2025 00:58:36.544] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[18May2025 00:58:36.544] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
-[18May2025 00:58:39.631] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[18May2025 00:58:47.698] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[18May2025 00:58:47.702] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[18May2025 00:58:47.724] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[18May2025 00:58:47.726] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[18May2025 00:58:54.570] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin from mod alexscaves has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[18May2025 17:40:30.023] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[18May2025 17:40:30.028] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[18May2025 17:40:32.171] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[18May2025 17:40:32.215] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[18May2025 17:40:32.264] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[18May2025 17:40:32.303] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[18May2025 17:40:32.388] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ServerCrow/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar%23116%23119!/ Service=ModLauncher Env=SERVER
+[18May2025 17:40:32.969] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[18May2025 17:40:32.979] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[18May2025 17:40:32.983] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[18May2025 17:40:32.989] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[18May2025 17:40:34.204] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 48 dependencies adding them to mods collection
+[18May2025 17:40:35.038] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 1 candidates to load
+[18May2025 17:40:38.073] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[18May2025 17:40:41.662] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18May2025 17:40:42.325] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[18May2025 17:40:43.124] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
+[18May2025 17:40:43.562] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18May2025 17:40:43.674] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18May2025 17:40:44.539] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[18May2025 17:40:44.542] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[18May2025 17:40:44.544] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
+[18May2025 17:40:44.555] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[18May2025 17:40:44.563] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[18May2025 17:40:44.565] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
+[18May2025 17:40:49.069] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[18May2025 17:41:00.333] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18May2025 17:41:00.336] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18May2025 17:41:00.369] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18May2025 17:41:00.371] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18May2025 17:41:09.768] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin from mod alexscaves has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[18May2025 00:58:55.360] [main/INFO] [prionmod/]: Zirp Zorg Zirp
-[18May2025 00:58:55.494] [main/INFO] [prionmod/]: Registering Mod Items for prionmod
-[18May2025 00:58:55.500] [main/INFO] [prionmod/]: Registering ModBlocks for prionmod
-[18May2025 00:58:55.530] [main/INFO] [prionmod/]: Registering Sounds for prionmod
-[18May2025 00:58:55.532] [main/INFO] [prionmod/]: Registering Item Groups for prionmod
-[18May2025 00:58:56.727] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[18May2025 00:58:56.727] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[18May2025 00:58:56.925] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
-[18May2025 00:58:58.067] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
-[18May2025 00:58:58.069] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
-[18May2025 00:59:03.708] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[18May2025 00:59:04.171] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[18May2025 00:59:05.572] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[18May2025 00:59:06.002] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
-[18May2025 00:59:06.349] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
-[18May2025 00:59:06.354] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[18May2025 00:59:06.416] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.9.4 Target: null
-[18May2025 00:59:13.162] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18May2025 00:59:17.309] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23137!/assets/.mcassetsroot' uses unexpected schema
-[18May2025 00:59:17.310] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23137!/data/.mcassetsroot' uses unexpected schema
-[18May2025 00:59:21.684] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[18May2025 00:59:22.771] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:prionmod:entities/thrall
+[18May2025 17:41:11.639] [main/INFO] [prionmod/]: Zirp Zorg Zirp
+[18May2025 17:41:11.932] [main/INFO] [prionmod/]: Registering Mod Items for prionmod
+[18May2025 17:41:11.941] [main/INFO] [prionmod/]: Registering ModBlocks for prionmod
+[18May2025 17:41:11.979] [main/INFO] [prionmod/]: Registering Sounds for prionmod
+[18May2025 17:41:11.981] [main/INFO] [prionmod/]: Registering Item Groups for prionmod
+[18May2025 17:41:13.288] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[18May2025 17:41:13.294] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[18May2025 17:41:13.537] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[18May2025 17:41:14.990] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[18May2025 17:41:14.992] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[18May2025 17:41:19.612] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[18May2025 17:41:20.323] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[18May2025 17:41:20.328] [Thread-2/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[18May2025 17:41:20.343] [Thread-2/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[18May2025 17:41:21.953] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18May2025 17:41:22.741] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[18May2025 17:41:23.089] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[18May2025 17:41:23.094] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[18May2025 17:41:23.177] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.9.4 Target: null
+[18May2025 17:41:31.654] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18May2025 17:41:35.695] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23137!/assets/.mcassetsroot' uses unexpected schema
+[18May2025 17:41:35.700] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/ServerCrow/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23137!/data/.mcassetsroot' uses unexpected schema
+[18May2025 17:41:40.735] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[18May2025 17:41:42.609] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:prionmod:entities/thrall
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:fat'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -103,7 +105,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[18May2025 00:59:23.456] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:prionmod:entities/infectedsheep
+[18May2025 17:41:43.419] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:prionmod:entities/infectedsheep
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:wool'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23137!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -155,709 +157,70 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[18May2025 00:59:24.112] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
-[18May2025 00:59:24.502] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[18May2025 00:59:24.563] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
-[18May2025 00:59:24.624] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
-[18May2025 00:59:24.823] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
-[18May2025 00:59:24.862] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
-[18May2025 00:59:24.974] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1817 advancements
-[18May2025 00:59:24.992] [main/INFO] [placebo/]: Registered 0 additional recipes.
-[18May2025 00:59:25.024] [main/INFO] [placebo/]: Registered 0 gear_sets.
-[18May2025 00:59:27.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[18May2025 00:59:27.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[18May2025 00:59:27.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[18May2025 00:59:27.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[18May2025 00:59:27.445] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[18May2025 00:59:27.492] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[18May2025 00:59:27.702] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18May2025 00:59:27.703] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[18May2025 00:59:27.703] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18May2025 00:59:27.704] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[18May2025 00:59:27.950] [Server thread/ERROR] [mixin/]: Injection error: LVT in net/minecraft/world/entity/npc/VillagerTrades$EmeraldsForVillagerTypeItem::m_213663_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer; has incompatible changes at opcode 34 in callback fabric-object-builder-v1.mixins.json:TradeOffersTypeAwareBuyForOneEmeraldFactoryMixin from mod fabric_object_builder_api_v1->@Inject::failOnNullItem(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/item/ItemStack;)V.
+[18May2025 17:41:44.363] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[18May2025 17:41:45.099] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[18May2025 17:41:45.167] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[18May2025 17:41:45.219] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[18May2025 17:41:45.356] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[18May2025 17:41:45.396] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[18May2025 17:41:45.495] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1817 advancements
+[18May2025 17:41:45.519] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[18May2025 17:41:45.572] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[18May2025 17:41:48.196] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[18May2025 17:41:48.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[18May2025 17:41:48.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[18May2025 17:41:48.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18May2025 17:41:48.489] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[18May2025 17:41:48.684] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[18May2025 17:41:49.640] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18May2025 17:41:49.643] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[18May2025 17:41:49.643] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18May2025 17:41:49.643] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[18May2025 17:41:50.655] [Server thread/ERROR] [mixin/]: Injection error: LVT in net/minecraft/world/entity/npc/VillagerTrades$EmeraldsForVillagerTypeItem::m_213663_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer; has incompatible changes at opcode 34 in callback fabric-object-builder-v1.mixins.json:TradeOffersTypeAwareBuyForOneEmeraldFactoryMixin from mod fabric_object_builder_api_v1->@Inject::failOnNullItem(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/item/ItemStack;)V.
  Expected: [Lnet/minecraft/world/item/ItemStack;]
     Found: [Lnet/minecraft/world/item/Item;]
 Available: [Lnet/minecraft/world/item/Item;, Lnet/minecraft/world/item/ItemStack;]
-[18May2025 00:59:27.977] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[18May2025 00:59:36.928] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[18May2025 00:59:37.548] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[18May2025 00:59:38.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[18May2025 00:59:45.172] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:45.227] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:45.228] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:45.233] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:45.233] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:45.234] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:45.242] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:45.243] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:45.243] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:45.247] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:45.248] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:45.248] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:45.256] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:45.258] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:45.346] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[18May2025 00:59:45.659] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:46.159] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:46.805] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[18May2025 00:59:47.252] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8594 ms
-[18May2025 00:59:47.257] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.525s)! For help, type "help"
-[18May2025 00:59:47.361] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[18May2025 00:59:56.730] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: junioxd[/100.83.92.16:53583] logged in with entity id 645 at (-38.35037997269931, 61.22854082124996, 125.7983763448391)
-[18May2025 00:59:56.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd joined the game
-[18May2025 00:59:59.270] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Xandroid3X[/100.102.20.95:2662] logged in with entity id 696 at (-47.30000001192093, 62.0, 333.69999998807907)
-[18May2025 00:59:59.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X joined the game
-[18May2025 01:00:00.824] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[18May2025 01:00:48.426] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ram_zzz[/100.117.116.41:54779] logged in with entity id 1070 at (-82.33615113179303, 30.0, 232.30000001192093)
-[18May2025 01:00:48.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ram_zzz joined the game
-[18May2025 01:00:54.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> HELLO
-[18May2025 01:00:58.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> hola we
-[18May2025 01:01:21.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ustedes se pueden guiar con
-[18May2025 01:01:24.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> cords?
-[18May2025 01:01:28.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> si vro
-[18May2025 01:01:49.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> perdi la llave de mi tumba
-[18May2025 01:02:32.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> q es grave dust
-[18May2025 01:02:49.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> algo del mod de tumbas
-[18May2025 01:03:50.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd drowned whilst trying to escape Lacerator
-[18May2025 01:03:55.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> XD
-[18May2025 01:04:30.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> webon donde andan ustedes
-[18May2025 01:04:36.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> aun en la cueva
-[18May2025 01:04:43.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> ni vi tu nickname
-[18May2025 01:05:12.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X has made the advancement [Monster Hunter]
-[18May2025 01:05:39.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no c
-[18May2025 01:05:47.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd has made the advancement [Monster Hunter]
-[18May2025 01:06:02.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X has made the advancement [Alex's Caves]
-[18May2025 01:06:21.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ram_zzz has made the advancement [Isn't It Iron Pick]
-[18May2025 01:06:39.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> bro
-[18May2025 01:06:46.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> q anda gritando mi tio aca
-[18May2025 01:07:06.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> bro
-[18May2025 01:07:08.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> neta
-[18May2025 01:07:10.288] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:07:15.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> tengo ganas de poner keep inventory
-[18May2025 01:07:19.520] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:07:26.489] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:07:29.647] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:07:30.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> no
-[18May2025 01:07:32.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> no lo hagas
-[18May2025 01:07:37.335] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:07:56.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> AH
-[18May2025 01:08:01.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> alguien ayudeme
-[18May2025 01:08:04.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> fuera de la cueva
-[18May2025 01:08:23.650] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:08:24.170] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:08:30.575] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:08:32.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> aguanta vro
-[18May2025 01:08:38.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ram_zzz has made the advancement [Suit Up]
-[18May2025 01:08:39.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X has completed the challenge [Back To Hell]
-[18May2025 01:08:51.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> A TU CASAAAA
-[18May2025 01:09:11.040] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:09:12.893] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:09:17.098] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:09:28.652] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:10:21.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> vro
-[18May2025 01:10:24.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> esta lleno de arañas
-[18May2025 01:10:33.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ya se
-[18May2025 01:11:09.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd has made the advancement [Stone Age]
-[18May2025 01:11:16.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> HADBHNAWSD
-[18May2025 01:11:17.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> AHHHHH
-[18May2025 01:11:19.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> DOOM
-[18May2025 01:11:19.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> en que parte de la cueva estan
-[18May2025 01:11:20.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> DOOM
-[18May2025 01:11:21.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> DOOM
-[18May2025 01:11:21.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> en la salida o que
-[18May2025 01:11:22.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> DOOM
-[18May2025 01:11:23.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> DOOM
-[18May2025 01:11:25.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> DOOM
-[18May2025 01:11:26.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> DOOM
-[18May2025 01:11:27.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> estoy lejos ram
-[18May2025 01:11:33.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> ram donde estas
-[18May2025 01:11:34.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> QUE TENGO AL CAVE DWELLER AFUERA
-[18May2025 01:11:35.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> estoy en la entrada
-[18May2025 01:11:36.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> NO JODAS
-[18May2025 01:11:38.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> XDDD
-[18May2025 01:11:42.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> ram
-[18May2025 01:11:45.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> dime donde estoy en la entrada
-[18May2025 01:11:58.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> QUE ANDA GRITANDO EL WEY
-[18May2025 01:12:07.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd has made the advancement [Getting an Upgrade]
-[18May2025 01:12:09.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> -40 279 29
-[18May2025 01:12:32.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> me acabo de cagar encima
-[18May2025 01:12:39.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> chicos
-[18May2025 01:12:41.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> si tienen
-[18May2025 01:12:45.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> tela de araña
-[18May2025 01:12:47.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no la boten
-[18May2025 01:12:51.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> pq arriba no hay comida
-[18May2025 01:12:52.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> hola
-[18May2025 01:12:54.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> la puta madre
-[18May2025 01:12:55.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> hola jun
-[18May2025 01:13:07.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> crafteen
-[18May2025 01:13:10.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> una caña
-[18May2025 01:13:13.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> q cosa
-[18May2025 01:13:14.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> a
-[18May2025 01:13:14.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> con eso consiguen comida
-[18May2025 01:13:21.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> tengo 48 sandias
-[18May2025 01:13:22.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ya tengo comida
-[18May2025 01:13:28.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> god
-[18May2025 01:13:29.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> jun
-[18May2025 01:13:32.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> guarda algunas
-[18May2025 01:13:35.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> zandias
-[18May2025 01:13:37.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> para plantar
-[18May2025 01:13:50.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> 48 patillas
-[18May2025 01:13:53.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> XD
-[18May2025 01:14:07.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> dejame el hierro
-[18May2025 01:14:11.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> necesito escudo
-[18May2025 01:14:13.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> c lag
-[18May2025 01:14:19.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> toma
-[18May2025 01:14:23.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd has made the advancement [Acquire Hardware]
-[18May2025 01:15:21.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> debimos invitar a kabo
-[18May2025 01:15:23.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> se me olvido
-[18May2025 01:15:24.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> se
-[18May2025 01:15:32.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> c pendejo
-[18May2025 01:15:38.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> mañana lo invito
-[18May2025 01:15:47.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> y crow que
-[18May2025 01:15:47.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> bro
-[18May2025 01:15:50.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> no le dio gansa ?
-[18May2025 01:15:51.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> y pq no deberia salir
-[18May2025 01:16:04.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> porque
-[18May2025 01:16:08.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> hay un moton de bichos
-[18May2025 01:16:13.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> como te explico ram
-[18May2025 01:16:17.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> que todo esta infectado
-[18May2025 01:16:18.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> vale vro
-[18May2025 01:16:22.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> y hay un bicho que salta
-[18May2025 01:16:25.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> escuche un sonido raro
-[18May2025 01:16:25.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> los zombies saltan
-[18May2025 01:16:29.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> una araña infectada
-[18May2025 01:16:32.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> ESCUCHE UN SONIDO RARO
-[18May2025 01:16:36.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> una araña qu salta 3 bloques
-[18May2025 01:16:39.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> y no es una araña ni zombie
-[18May2025 01:16:47.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> CHAVALES
-[18May2025 01:16:54.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> tengo 1000 de iq
-[18May2025 01:16:58.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> acabo de romper un spawner
-[18May2025 01:17:02.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> bro
-[18May2025 01:17:12.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> eso era una oportunidad
-[18May2025 01:17:18.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> y la acabas de desperdiciar
-[18May2025 01:17:21.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> es q el creeper explotó wei
-[18May2025 01:17:46.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> ey hagamos uan casita de madera
-[18May2025 01:18:27.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> gente es normal encontrar hornos y mesa de crafteo escondidas en una cueva
-[18May2025 01:18:36.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no
-[18May2025 01:18:36.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> no se wei
-[18May2025 01:18:45.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> esta a fuera dee la salida
-[18May2025 01:18:51.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> aqui estuvieron ustedes
-[18May2025 01:18:53.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> verdad ?
-[18May2025 01:18:55.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> es de nosotros pendejo
-[18May2025 01:19:14.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> se me acaba de caer el internet XD
-[18May2025 01:19:18.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> XD
-[18May2025 01:19:23.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> dios santo ram
-[18May2025 01:19:30.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X has made the advancement [Acquire Hardware]
-[18May2025 01:19:51.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> bro no encuentro la salida
-[18May2025 01:19:54.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X has made the advancement [Suit Up]
-[18May2025 01:20:10.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> webon vengan a la cueva con hornos
-[18May2025 01:20:13.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> xd
-[18May2025 01:20:17.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> estoy solo mark
-[18May2025 01:20:33.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> yo estoy solo
-[18May2025 01:20:43.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> en una cueva
-[18May2025 01:20:46.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> yo vs todos
-[18May2025 01:21:16.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> bro
-[18May2025 01:21:24.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> hay un creeper con velocidad 900
-[18May2025 01:21:31.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ram_zzz has made the advancement [Take Aim]
-[18May2025 01:21:32.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> pues escudo y ya
-[18May2025 01:21:33.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> gg
-[18May2025 01:21:47.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> bro
-[18May2025 01:21:50.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> algo me acaba de gritar
-[18May2025 01:21:59.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> a mi tambien vro
-[18May2025 01:22:16.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> esta el dweller suelto o no
-[18May2025 01:22:37.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ya casi full hierro
-[18May2025 01:22:54.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> estoy encerrado en su perra cueva con hornos
-[18May2025 01:22:56.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> tape todo
-[18May2025 01:22:59.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> tengo miedo
-[18May2025 01:23:01.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> a qn le gritaron
-[18May2025 01:23:09.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> creo que a mi
-[18May2025 01:23:11.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> escuche un ruido
-[18May2025 01:23:45.590] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:23:45.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd has made the advancement [Isn't It Iron Pick]
-[18May2025 01:23:49.683] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:23:58.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> UN CREEPER
-[18May2025 01:23:59.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> QUIEN FUE
-[18May2025 01:24:02.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> yp
-[18May2025 01:24:03.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> yo
-[18May2025 01:24:07.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> estas cerca bro
-[18May2025 01:24:09.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> ENTRA A LA CUEVA
-[18May2025 01:24:11.127] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:24:16.976] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:24:45.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> we te vi pasar
-[18May2025 01:24:49.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> voy a
-[18May2025 01:24:52.527] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:24:54.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> salir ahorita de la cueva
-[18May2025 01:25:01.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> y ire a buscarlos
-[18May2025 01:25:05.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> buscare comida primero
-[18May2025 01:25:08.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> estoy en su cueva con hornos y madera
-[18May2025 01:25:12.426] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:25:14.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> la que esta al lado de una cueva de agua
-[18May2025 01:25:20.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> oye
-[18May2025 01:25:24.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> alguien sabe
-[18May2025 01:25:30.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> como veo las recetas con el jei mods
-[18May2025 01:25:42.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> UN GRITO
-[18May2025 01:25:43.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> WTH
-[18May2025 01:25:45.677] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:25:57.634] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:25:58.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ns bro yo la tengo en el interfaz como siempre
-[18May2025 01:26:30.042] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:26:45.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> el diavlo
-[18May2025 01:26:46.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> un grito
-[18May2025 01:26:48.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> diablazo
-[18May2025 01:26:55.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> webon ando en la cueva
-[18May2025 01:26:58.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> bueno
-[18May2025 01:26:59.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> en la base
-[18May2025 01:27:02.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> por asi decirlo
-[18May2025 01:27:06.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> vengan entren
-[18May2025 01:27:13.975] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:27:14.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> no se como salir wei
-[18May2025 01:27:15.079] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:27:16.782] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:27:22.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> sal de donde viniste y vente pa atras
-[18May2025 01:27:25.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ESTA CONMIGO
-[18May2025 01:27:27.177] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:27:32.785] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:27:52.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> bro lo escuche
-[18May2025 01:27:59.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> me aparecio en subtitulos tambien
-[18May2025 01:28:08.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> cave.dweller.sound
-[18May2025 01:28:09.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ayuda
-[18May2025 01:28:35.942] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:28:39.635] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:28:39.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> NAH ID WIN
-[18May2025 01:28:41.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> SALDRE
-[18May2025 01:28:49.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> UN FANTASMA WACHO
-[18May2025 01:28:58.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ram_zzz has made the advancement [Where Is The Stone Pen?]
-[18May2025 01:28:58.692] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:29:18.542] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:29:20.228] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:29:26.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> sobrevivi
-[18May2025 01:29:28.232] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:29:35.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> nah id survive
-[18May2025 01:30:33.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> veo el amanecer
-[18May2025 01:30:35.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> me encontré una mochila
-[18May2025 01:30:36.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ahuevo
-[18May2025 01:30:47.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> que suerte
-[18May2025 01:31:39.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> ram sali
-[18May2025 01:31:50.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> y vente a la base
-[18May2025 01:31:53.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> señores
-[18May2025 01:31:56.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> eso intento
-[18May2025 01:31:59.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> tengo a 22 tipos arriba mio
-[18May2025 01:32:08.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> que suerte
-[18May2025 01:32:58.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> bro doom
-[18May2025 01:33:02.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> y si metes el mod de armas
-[18May2025 01:33:09.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> sisas lo hago
-[18May2025 01:33:11.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> bro lo haces mas facil
-[18May2025 01:33:17.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> nambre
-[18May2025 01:33:21.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> doom
-[18May2025 01:33:23.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> no la cages
-[18May2025 01:33:29.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> bro
-[18May2025 01:33:33.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> q te mueres con un zombie
-[18May2025 01:33:48.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> digo la puedes meter pero no metas mas de ahi
-[18May2025 01:33:57.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> solo la punta
-[18May2025 01:34:04.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> con una arma lo haces mas dificil literal
-[18May2025 01:34:08.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> facil*
-[18May2025 01:34:11.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> bro
-[18May2025 01:34:11.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> que pendejo
-[18May2025 01:34:12.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> pero
-[18May2025 01:34:18.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> buscar los recursos esta complicado
-[18May2025 01:34:22.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> nope
-[18May2025 01:34:24.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ya tengo mi espada de hierro a
-[18May2025 01:34:28.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> cual vas a meter
-[18May2025 01:34:29.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> medio uso
-[18May2025 01:34:37.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> bro con las armas esta bien hardcore
-[18May2025 01:34:37.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> yo uso el mcgrayfish una mamada asi
-[18May2025 01:34:49.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> los recursos de las armaas son mas hardcore
-[18May2025 01:34:51.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> cfff
-[18May2025 01:34:53.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> los crafteos son super faciles
-[18May2025 01:34:55.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> se me esta lagueando
-[18May2025 01:35:04.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> alho que nos
-[18May2025 01:35:05.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> de
-[18May2025 01:35:06.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> mas
-[18May2025 01:35:08.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no c
-[18May2025 01:35:11.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> un bufo
-[18May2025 01:35:38.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> ey vengan a mi base
-[18May2025 01:35:39.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> estoy minando hacia arriba
-[18May2025 01:35:40.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ya fue
-[18May2025 01:35:53.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no
-[18May2025 01:35:54.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ram
-[18May2025 01:35:57.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no lo hagas
-[18May2025 01:36:13.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> lo haré...
-[18May2025 01:36:18.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> SI MUERO
-[18May2025 01:36:23.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> RECUERDENME COMO UN HEROE
-[18May2025 01:36:37.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> el nigga killer...
-[18May2025 01:36:49.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> bro ya voy ram
-[18May2025 01:36:50.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> deja
-[18May2025 01:36:54.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> consigo comida
-[18May2025 01:36:57.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ya se esta cocinando
-[18May2025 01:36:57.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> estoy cocinando hierro
-[18May2025 01:36:59.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> por mientras
-[18May2025 01:37:15.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> jun
-[18May2025 01:37:16.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> como vas
-[18May2025 01:37:20.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> tienes armadura?
-[18May2025 01:38:07.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> jun murió
-[18May2025 01:38:14.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> no
-[18May2025 01:38:18.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> por desgarre anal
-[18May2025 01:38:19.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> sigo vivo en la base
-[18May2025 01:38:55.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ya escucho al flauta
-[18May2025 01:38:57.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> falta poco
-[18May2025 01:39:08.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> sube
-[18May2025 01:39:27.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> JUN
-[18May2025 01:39:32.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> lo logré
-[18May2025 01:39:34.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> veo la superficie
-[18May2025 01:39:45.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> pasa cords
-[18May2025 01:39:48.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> cuidado
-[18May2025 01:39:49.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no salgas
-[18May2025 01:39:55.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> deja voy por ti
-[18May2025 01:39:55.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> estoy muy cerca de ustedes
-[18May2025 01:40:06.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> -24 249
-[18May2025 01:40:19.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no estas cerca
-[18May2025 01:40:23.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> a 50 bloques
-[18May2025 01:40:23.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> VEO EL NICKNAME DE RAM
-[18May2025 01:40:24.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> bro
-[18May2025 01:40:25.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> VAMOS TU PUEDE
-[18May2025 01:40:27.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> q veo sus nombres
-[18May2025 01:40:29.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ...
-[18May2025 01:40:49.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> voy a salir
-[18May2025 01:41:07.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> esta despejada la entrada a la base?
-[18May2025 01:41:21.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> si ven
-[18May2025 01:41:36.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> C LAG
-[18May2025 01:41:39.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> XDDDDD
-[18May2025 01:41:43.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> NOOO
-[18May2025 01:41:56.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> bro
-[18May2025 01:41:58.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> q es esa mierda
-[18May2025 01:41:58.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> hay un problema
-[18May2025 01:42:00.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> nacio
-[18May2025 01:42:01.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> un nido
-[18May2025 01:42:13.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> salgant
-[18May2025 01:42:14.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> jun
-[18May2025 01:42:15.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ven
-[18May2025 01:42:25.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> junnn
-[18May2025 01:42:32.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> tienes
-[18May2025 01:42:36.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> una sandia?
-[18May2025 01:42:38.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> si
-[18May2025 01:42:42.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> dame una
-[18May2025 01:42:46.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> a
-[18May2025 01:42:57.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> tienen un pico de hierro
-[18May2025 01:43:07.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> nou
-[18May2025 01:43:12.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ni pico de hierro tengo
-[18May2025 01:43:15.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> tengo uno de
-[18May2025 01:43:19.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> piedra
-[18May2025 01:43:20.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> pero toma wei
-[18May2025 01:43:28.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> gracias
-[18May2025 01:43:31.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ram tienes un cubo?
-[18May2025 01:43:44.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> deja hago uno
-[18May2025 01:44:00.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> bro
-[18May2025 01:44:01.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> doom
-[18May2025 01:44:03.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> q hace esto
-[18May2025 01:44:17.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> es
-[18May2025 01:44:18.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> un tp
-[18May2025 01:44:19.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> np
-[18May2025 01:44:20.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> nooo
-[18May2025 01:44:21.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ram_zzz has made the advancement [Knowledge of Death]
-[18May2025 01:44:21.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ram_zzz has reached the goal [Greed may lead to loss]
-[18May2025 01:44:22.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ára
-[18May2025 01:44:23.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> DIO
-[18May2025 01:44:29.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ram_zzz has made the advancement [Ashes 'n Bones]
-[18May2025 01:44:31.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ram
-[18May2025 01:44:33.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> XDDDD
-[18May2025 01:44:33.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> eres un bobo
-[18May2025 01:44:43.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> BRO
-[18May2025 01:44:48.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> QUE ESTOY EN LA CAPA -43
-[18May2025 01:44:52.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> te dije que no
-[18May2025 01:44:53.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> como queo el minoc
-[18May2025 01:44:55.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> eso es un tp
-[18May2025 01:44:58.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> JAJAJAJA
-[18May2025 01:44:59.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> pq no esperas
-[18May2025 01:44:59.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> PERDON
-[18May2025 01:45:00.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> como quedo el camino
-[18May2025 01:45:03.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> BRO RAM
-[18May2025 01:45:06.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> el cave dweller
-[18May2025 01:45:10.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> y se bugeo esto
-[18May2025 01:45:14.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ay diomio
-[18May2025 01:45:15.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> tengo un spawner aqui
-[18May2025 01:45:18.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> esto que es
-[18May2025 01:45:25.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> es unas particulas bug
-[18May2025 01:45:27.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> salte y entrate
-[18May2025 01:45:32.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> yo?
-[18May2025 01:45:32.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> y desaparecen
-[18May2025 01:45:42.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ahi habran cultivos
-[18May2025 01:45:44.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no ram
-[18May2025 01:45:47.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> tu no
-[18May2025 01:45:55.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> pipipipi
-[18May2025 01:46:40.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> bros
-[18May2025 01:46:43.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> estuve viendo y se pude
-[18May2025 01:46:48.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> puede crear
-[18May2025 01:46:51.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> un cyborg
-[18May2025 01:46:52.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> algo asi
-[18May2025 01:46:54.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> queee
-[18May2025 01:46:54.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> con
-[18May2025 01:47:05.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> los organos que nos dejan los infectados
-[18May2025 01:47:08.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> bro y esa fumada
-[18May2025 01:47:10.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ahuevo
-[18May2025 01:47:13.278] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:47:13.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> tengo un cerebro
-[18May2025 01:47:14.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> pero mete mod de armas ugu
-[18May2025 01:47:18.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> pues si jun
-[18May2025 01:47:19.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> mirate
-[18May2025 01:47:26.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> pone
-[18May2025 01:47:34.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> mira ve a
-[18May2025 01:47:40.082] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:47:41.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ajustes controles
-[18May2025 01:47:41.532] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:47:46.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> teclado
-[18May2025 01:47:48.388] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:47:53.475] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:47:55.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> busccas jei
-[18May2025 01:48:13.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> y donde dice
-[18May2025 01:48:18.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> jei hovering with mouse
-[18May2025 01:48:22.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> busca uno q dice
-[18May2025 01:48:26.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> show recipes
-[18May2025 01:48:27.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> y
-[18May2025 01:48:34.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> pones cualquier tecla q no uses
-[18May2025 01:48:39.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> y cuando
-[18May2025 01:48:40.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> no entendi
-[18May2025 01:48:46.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> este jun
-[18May2025 01:48:48.488] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:48:52.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> XDDDD
-[18May2025 01:49:09.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> tengo la tecla R
-[18May2025 01:49:25.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> perdon
-[18May2025 01:49:26.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> es
-[18May2025 01:49:29.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> show uses
-[18May2025 01:49:32.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no show recipe
-[18May2025 01:49:36.376] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 01:49:43.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ahi pones cualquier tecla yo tengo la t
-[18May2025 01:50:13.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> y pa que sirve eso
-[18May2025 01:50:15.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> yo tengo la U
-[18May2025 01:50:20.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ven
-[18May2025 01:50:26.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> coje
-[18May2025 01:50:32.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> apuntas al objeto
-[18May2025 01:50:35.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> y le das a la y
-[18May2025 01:50:36.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> u
-[18May2025 01:50:37.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> perdon
-[18May2025 01:50:48.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> en el
-[18May2025 01:50:49.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> inventario
-[18May2025 01:50:56.030] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [spartanshields:network,fabridge:network,tombstone:tombstone_channel,sophisticatedbackpacks:channel,sophisticatedcore:channel] rejected their client side version number
-[18May2025 01:50:56.032] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
-[18May2025 01:50:56.037] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@298e619f[id=<null>,name=yizininenine,properties={},legacy=false] (/100.88.6.5:64927) lost connection: Connection closed - mismatched mod channel list
-[18May2025 01:51:10.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> abre el inve
-[18May2025 01:51:17.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> y pones el mouse arriba del cerebro
-[18May2025 01:51:23.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> y le das a la u
-[18May2025 01:51:25.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ram_zzz has made the advancement [Diamonds!]
-[18May2025 01:51:30.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> Bv
-[18May2025 01:51:40.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> viste?
-[18May2025 01:51:42.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> epa
-[18May2025 01:51:44.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> esta bacan pero
-[18May2025 01:51:53.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ssi
-[18May2025 01:51:56.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> necesitamos una espada de hierro y 2 benditos bloques de hierro
-[18May2025 01:52:04.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> ey busca madera
-[18May2025 01:52:11.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> estamos reee pobres
-[18May2025 01:52:18.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ok
-[18May2025 01:52:19.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> void
-[18May2025 01:52:21.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> pero
-[18May2025 01:52:22.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> mira aca
-[18May2025 01:52:26.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> vamos a poner los cultivos
-[18May2025 01:52:27.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> tranquilos amijos q yo ando farmeando
-[18May2025 01:52:31.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> con mi xray BV
-[18May2025 01:52:37.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> bro que asco
-[18May2025 01:52:40.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> como asi
-[18May2025 01:52:43.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> q es joda hermano
-[18May2025 01:53:10.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> yizi dice que se viene para aca
-[18May2025 01:53:17.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> bien
-[18May2025 01:53:20.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> uy uy
-[18May2025 01:53:26.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ya se suman 2 muertes apenas entre
-[18May2025 01:54:18.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> capa 3 hermano...
-[18May2025 01:54:27.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X has made the advancement [A Seedy Place]
-[18May2025 01:54:29.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd was slain by Cannibal
-[18May2025 01:54:29.603] [Server thread/INFO] [tombstone/]: The player junioxd has successfully been saved
-[18May2025 01:55:15.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> jun
-[18May2025 01:55:17.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> tienes piedra
-[18May2025 01:55:20.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd has reached the goal [Chain Death]
-[18May2025 01:55:20.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd fell from a high place
-[18May2025 01:55:24.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> bro este
-[18May2025 01:56:18.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd was slain by Infected Pig
-[18May2025 01:56:20.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> BRO
-[18May2025 01:57:46.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> jun ya
-[18May2025 01:57:48.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> limpio
-[18May2025 01:58:03.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> doom
-[18May2025 01:58:08.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> yizi que le pases los mods
-[18May2025 02:00:08.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> jun donde fuiste
-[18May2025 02:00:08.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> doom
-[18May2025 02:00:14.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> pasale los mods a yizi
-[18May2025 02:00:16.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ya
-[18May2025 02:00:20.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> yo no puedo ando buscandoles madera
-[18May2025 02:00:38.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ALFIN
-[18May2025 02:00:39.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> SALI
-[18May2025 02:00:56.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X has made the advancement [Knowledge of Death]
-[18May2025 02:00:56.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X has reached the goal [Strong or Careful]
-[18May2025 02:00:56.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X died from internal damage.
-[18May2025 02:00:56.863] [Server thread/INFO] [tombstone/]: The player Xandroid3X has successfully been saved
-[18May2025 02:01:03.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> naa
-[18May2025 02:01:15.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X has made the advancement [Knowledge raises the soul]
-[18May2025 02:02:18.899] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ram_zzz moved too quickly! -0.6194258552516203,-10.489193646185413,-1.6410313247072281
-[18May2025 02:02:26.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> VOLVIO
-[18May2025 02:02:29.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> CAMPEON
-[18May2025 02:02:33.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> amigo
-[18May2025 02:02:36.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> me seguia medio perú
-[18May2025 02:02:41.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> XDD
-[18May2025 02:02:44.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> habian mas de 20 bichos
-[18May2025 02:02:55.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd was slain by Xandroid3X
-[18May2025 02:02:55.672] [Server thread/INFO] [tombstone/]: The player junioxd has successfully been saved
-[18May2025 02:02:57.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> XDD
-[18May2025 02:02:58.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> XDDDDDD
-[18May2025 02:03:10.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> c jun
-[18May2025 02:03:48.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> jun q hace con armadura de cuero hermano
-[18May2025 02:03:52.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> tan pobres estamos?
-[18May2025 02:03:56.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> me la dieron webon
-[18May2025 02:04:02.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> el doom la puso en el cofre
-[18May2025 02:04:08.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> no
-[18May2025 02:04:10.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> te la di
-[18May2025 02:04:19.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> hermanos
-[18May2025 02:04:23.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> voy a subir
-[18May2025 02:04:33.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> q metas un mod de armas wei
-[18May2025 02:04:34.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> esta base es una kk
-[18May2025 02:04:41.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> yo la veo chida
-[18May2025 02:04:44.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> tenemos que tener una base arriba
-[18May2025 02:04:51.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> aca caen desde arriba
-[18May2025 02:05:24.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> c ram
-[18May2025 02:05:27.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> what
-[18May2025 02:05:29.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> al unico que va lag
-[18May2025 02:05:32.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> ...
-[18May2025 02:05:33.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> es a ram
-[18May2025 02:05:48.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> jun y yo tenemos 4 rayitas
-[18May2025 02:05:50.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> pero ram
-[18May2025 02:05:55.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> tiene entre 2 y 3
-[18May2025 02:07:32.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> c jun
-[18May2025 02:08:08.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> creo que ahorita me void
-[18May2025 02:08:46.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> pq bro
-[18May2025 02:09:20.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd has made the advancement [Sweet Dreams]
-[18May2025 02:09:20.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> bro q mierda
-[18May2025 02:09:51.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> alaverga
-[18May2025 02:09:59.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> doom
-[18May2025 02:10:01.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> pon la reja
-[18May2025 02:10:04.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> hay un chingo aya
-[18May2025 02:10:09.775] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 02:10:11.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> por eso
-[18May2025 02:10:13.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> me voy
-[18May2025 02:10:14.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ya
-[18May2025 02:10:21.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> cmo wei
-[18May2025 02:10:21.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> jun ten
-[18May2025 02:10:24.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> del sv?
-[18May2025 02:10:27.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> si
-[18May2025 02:10:35.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> aprovechas de meter un mod de armas...
-[18May2025 02:10:42.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ahi dejo
-[18May2025 02:10:44.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> mis cosas
-[18May2025 02:10:47.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> para ustedes
-[18May2025 02:10:52.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> pura kk
-[18May2025 02:10:54.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> me las devuelven mañana
-[18May2025 02:11:00.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> jun agarra mi armadura
-[18May2025 02:11:01.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> no vas a jugar hasta mañana wei?
-[18May2025 02:11:10.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> si
-[18May2025 02:11:13.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> pero mañana
-[18May2025 02:11:16.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> buuuu
-[18May2025 02:11:27.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> chaod
-[18May2025 02:11:30.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> chao vro
-[18May2025 02:11:33.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> cosigan una base arriba
-[18May2025 02:11:35.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> METES EL MOD DE ARMAS
-[18May2025 02:11:39.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> y hagan este tipo de cerca
-[18May2025 02:11:49.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> XD
-[18May2025 02:11:59.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> bue la base aca abajo esta bien
-[18May2025 02:12:03.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> arriba esta bien hardcore
-[18May2025 02:12:05.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> pendejo
-[18May2025 02:12:17.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> haganla asi
-[18May2025 02:12:33.539] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yizininenine[/100.88.6.5:65372] logged in with entity id 33916 at (4.5, 64.0, 8.5)
-[18May2025 02:12:33.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yizininenine joined the game
-[18May2025 02:12:34.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> tu no tuviste que matar a los 15 infectados
-[18May2025 02:12:37.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> me la rife yo solo
-[18May2025 02:12:39.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> yizi deidad
-[18May2025 02:12:40.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> ayuden a yizi
-[18May2025 02:12:43.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> chaos
-[18May2025 02:12:46.542] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Xandroid3X lost connection: Disconnected
-[18May2025 02:12:46.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X left the game
-[18May2025 02:12:56.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> JUN
-[18May2025 02:13:01.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> XDDD?
-[18May2025 02:13:01.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> HIJO DE TU PUTA MADRE
-[18May2025 02:13:10.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> en que situacion andan w
-[18May2025 02:13:15.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd has made the advancement [A Seedy Place]
-[18May2025 02:13:22.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> un infectado me andaba madreando junto a jun
-[18May2025 02:13:24.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> nomames
-[18May2025 02:13:29.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> skull
-[18May2025 02:14:24.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd was slain by Decaying Leach
-[18May2025 02:14:24.448] [Server thread/INFO] [tombstone/]: The player junioxd has successfully been saved
-[18May2025 02:14:28.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> vro
-[18May2025 02:14:54.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> bro te sere sincero
-[18May2025 02:15:00.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> vro q baja un chingo esa madre
-[18May2025 02:15:11.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> este hijueputa survival esta bien divertido jiji
-[18May2025 02:15:18.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> si wei
-[18May2025 02:15:43.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd drowned
-[18May2025 02:16:07.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> q pedo una araña gigante
-[18May2025 02:17:18.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> bobo como vas a cubrir los cultivos
-[18May2025 02:17:21.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> necesita agua
-[18May2025 02:17:25.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> pendejo
-[18May2025 02:17:31.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> no les quite el acceso al awa a todos
-[18May2025 02:17:43.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> con eso basta
-[18May2025 02:18:16.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> voy al baño ya vuelvo
-[18May2025 02:18:34.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> dijo que pongamos techo
-[18May2025 02:18:34.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yizininenine has made the advancement [Stone Age]
-[18May2025 02:18:56.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yizininenine has made the advancement [Getting an Upgrade]
-[18May2025 02:19:15.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> hola yizi
-[18May2025 02:20:07.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> empezo lo bueno
-[18May2025 02:20:32.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> yizi di hola
-[18May2025 02:20:38.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> oal
-[18May2025 02:20:39.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> solo hazlo mandare algo
-[18May2025 02:20:44.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> hola
-[18May2025 02:22:08.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> he vuelto
-[18May2025 02:22:13.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> hola amor
-[18May2025 02:22:14.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> ram saluda a yizi
-[18May2025 02:22:18.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> hola
-[18May2025 02:22:22.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> Q
-[18May2025 02:22:25.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> so
-[18May2025 02:22:26.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> jun q hiciste
-[18May2025 02:22:35.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> dijo que pusieramos techo
-[18May2025 02:23:03.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> que cagado estos efectos de oscuridad alrededor de la pantalla
-[18May2025 02:23:07.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> olvide meterle optifine al forge
-[18May2025 02:23:09.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> +
-[18May2025 02:23:15.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> webon este server con mods esta mas divertido que el de crow
-[18May2025 02:23:25.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> el de crow ni lo pise
-[18May2025 02:23:42.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> lo pisabas y te entraba lagazo
-[18May2025 02:23:48.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yizininenine has made the advancement [Acquire Hardware]
-[18May2025 02:23:52.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> jun
-[18May2025 02:23:57.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> planta algun arbol vro
-[18May2025 02:23:58.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yizininenine has made the advancement [Isn't It Iron Pick]
-[18May2025 02:24:06.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> ok
-[18May2025 02:24:21.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> bingo
-[18May2025 02:24:31.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> bro se creia chance
-[18May2025 02:24:47.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd died from internal damage.
-[18May2025 02:24:47.220] [Server thread/INFO] [tombstone/]: The player junioxd has successfully been saved
-[18May2025 02:24:51.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> sybau
-[18May2025 02:24:53.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> lol
-[18May2025 02:25:01.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> sorprendido no
-[18May2025 02:25:10.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> webon ando raideado de zombies
-[18May2025 02:25:20.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> estan en un spawner o que
-[18May2025 02:25:24.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> nop
-[18May2025 02:25:39.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> encontre uno
-[18May2025 02:25:46.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> pero mejor agarro esto de aca antes que nada
-[18May2025 02:26:30.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> el server esta tan pobre que solo tengo un pico d e madera
-[18May2025 02:26:42.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> jun eres el unico pobre
-[18May2025 02:26:47.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> hasta yizi tiene hierro
-[18May2025 02:26:47.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> sip
-[18May2025 02:26:53.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> mas que hierro tengo
-[18May2025 02:26:55.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yizininenine has made the advancement [Diamonds!]
-[18May2025 02:26:59.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> webon pero estoy siendo muy util
-[18May2025 02:27:03.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> tremendo triunfador
-[18May2025 02:27:05.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> ya hize un camino y una base
-[18May2025 02:27:14.627] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 02:27:15.986] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 02:27:18.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> la coordenada -Y56 es clave
-[18May2025 02:27:23.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> su perra base estaba desordenada
-[18May2025 02:27:24.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> nunca fallo
-[18May2025 02:27:26.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> fui el unico que la mejoro
-[18May2025 02:27:30.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> bro
-[18May2025 02:27:36.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> en primer lugar yo no hice esa base pedorra
-[18May2025 02:27:42.124] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
-[18May2025 02:27:42.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> puse un horno y me metí a la cueva
-[18May2025 02:28:19.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> hasta el mismo doom me dejo encargado de la base
-[18May2025 02:28:24.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> dijo que le pusiera techo we
-[18May2025 02:28:30.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ram_zzz> buen trabajo wei
-[18May2025 02:28:38.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> cuando este listo les llevo cositas a su infierno
-[18May2025 02:28:40.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <junioxd> oh un hierro
-[18May2025 02:28:49.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yizininenine> si es que sobrevivo que no se que es esta cosa rodeandome w
+[18May2025 17:41:50.684] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[18May2025 17:42:08.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18May2025 17:42:18.574] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:18.629] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:18.673] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:18.704] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:18.838] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:18.863] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:18.876] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:18.891] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:18.901] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:18.915] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:18.924] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:18.946] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:18.973] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:19.007] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:19.049] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:19.257] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:19.288] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:19.293] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:19.397] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:19.431] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:19.455] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:19.465] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:19.493] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:19.879] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:20.369] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:20.858] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:21.359] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:21.858] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18May2025 17:42:22.626] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 14268 ms
+[18May2025 17:42:22.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (32.882s)! For help, type "help"
+[18May2025 17:42:22.691] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[18May2025 17:43:24.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[18May2025 17:43:24.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[18May2025 17:43:24.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[18May2025 17:43:24.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[18May2025 17:43:25.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18May2025 17:43:25.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18May2025 17:43:25.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18May2025 17:43:25.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18May2025 17:43:25.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18May2025 17:43:25.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18May2025 17:43:25.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
