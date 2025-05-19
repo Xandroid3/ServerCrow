@@ -60,3 +60,15 @@
 [19May2025 00:18:28.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd was slain by Starved
 [19May2025 00:18:57.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd died from internal damage.
 [19May2025 00:18:57.473] [Server thread/INFO] [tombstone/]: The player junioxd has successfully been saved
+[19May2025 00:19:56.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd was slain by Starved
+[19May2025 00:21:12.212] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: BUILDER spawned at BlockPos{x=-62, y=65, z=206}
+[19May2025 00:21:32.615] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
+[19May2025 00:21:36.716] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
+[19May2025 00:21:42.488] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
+[19May2025 00:22:42.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd was slain by Cannibal
+[19May2025 00:23:10.228] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
+[19May2025 00:23:16.618] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
+[19May2025 00:23:34.618] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
+[19May2025 00:23:38.017] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
+[19May2025 00:23:43.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd fell from a high place
+[19May2025 00:24:26.712] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-66, y=62, z=161}
