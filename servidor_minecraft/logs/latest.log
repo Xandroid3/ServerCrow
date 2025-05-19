@@ -545,3 +545,8 @@ Available: [Lnet/minecraft/world/item/Item;, Lnet/minecraft/world/item/ItemStack
 [19May2025 21:17:18.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> se hace
 [19May2025 21:17:19.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> con
 [19May2025 21:17:24.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> organos
+[19May2025 21:23:04.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X was slain by Starved
+[19May2025 21:23:04.709] [Server thread/INFO] [tombstone/]: The player Xandroid3X has successfully been saved
+[19May2025 21:24:24.055] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Xandroid3X lost connection: Disconnected
+[19May2025 21:24:24.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X left the game
+[19May2025 21:25:07.143] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-47, y=79, z=310}
