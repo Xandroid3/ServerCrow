@@ -517,6 +517,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "porkchop": "2025-05-18 01:40:02 +0000",
+      "apple": "2025-05-19 21:14:41 +0000",
       "rotten_flesh": "2025-05-18 21:19:09 +0000",
       "melon_slice": "2025-05-18 01:08:07 +0000"
     },
@@ -2367,6 +2368,66 @@
   "tombstone:adventure/choose_grave_type": {
     "criteria": {
       "coded_trigger": "2025-05-19 00:08:14 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/assault_rifle": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 21:07:05 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/shotgun": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 21:07:05 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/machine_pistol": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 21:07:05 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/bazooka": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 21:07:05 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/heavy_rifle": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 21:07:05 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/grenade_launcher": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 21:07:05 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/rifle": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 21:07:05 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/pistol": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 21:07:05 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/mini_gun": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 21:07:05 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/misc/workbench": {
+    "criteria": {
+      "has_iron": "2025-05-19 21:07:05 +0000"
     },
     "done": true
   },
