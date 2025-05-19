@@ -432,3 +432,6 @@ Available: [Lnet/minecraft/world/item/Item;, Lnet/minecraft/world/item/ItemStack
 [19May2025 19:50:26.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xandroid3X: Set own game mode to Spectator Mode]
 [19May2025 19:50:30.346] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-39, y=71, z=334}
 [19May2025 19:54:36.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xandroid3X: Set own game mode to Survival Mode]
+[19May2025 20:03:00.393] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-111, y=73, z=342}
+[19May2025 20:05:34.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xandroid3X: Set own game mode to Spectator Mode]
+[19May2025 20:06:14.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xandroid3X: Set own game mode to Creative Mode]
