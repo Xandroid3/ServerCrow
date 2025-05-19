@@ -72,3 +72,6 @@
 [19May2025 00:23:38.017] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
 [19May2025 00:23:43.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd fell from a high place
 [19May2025 00:24:26.712] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-66, y=62, z=161}
+[19May2025 00:29:34.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd tried to swim in lava to escape Failed Human Infection
+[19May2025 00:30:16.966] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: junioxd lost connection: Disconnected
+[19May2025 00:30:16.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd left the game
