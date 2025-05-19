@@ -48,3 +48,15 @@
 [19May2025 00:08:56.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Xandroid3X> vale deja me pongo op
 [19May2025 00:08:59.670] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Xandroid3X lost connection: Disconnected
 [19May2025 00:08:59.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X left the game
+[19May2025 00:09:04.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd burned to death
+[19May2025 00:09:04.323] [Server thread/INFO] [tombstone/]: The player junioxd has successfully been saved
+[19May2025 00:09:42.082] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Xandroid3X[/100.102.20.95:2740] logged in with entity id 69919 at (-58.30000001192093, -54.0, 203.09758717791354)
+[19May2025 00:09:42.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X joined the game
+[19May2025 00:10:08.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Xandroid3X a server operator
+[19May2025 00:10:33.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xandroid3X: Set own game mode to Spectator Mode]
+[19May2025 00:15:42.518] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Xandroid3X lost connection: Timed out
+[19May2025 00:15:42.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X left the game
+[19May2025 00:17:38.662] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-56, y=79, z=324}
+[19May2025 00:18:28.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd was slain by Starved
+[19May2025 00:18:57.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd died from internal damage.
+[19May2025 00:18:57.473] [Server thread/INFO] [tombstone/]: The player junioxd has successfully been saved
