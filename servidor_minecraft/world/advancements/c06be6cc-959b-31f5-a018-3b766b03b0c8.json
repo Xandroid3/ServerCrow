@@ -2719,6 +2719,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-05-19 20:14:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-05-19 20:14:35 +0000"
+    },
+    "done": true
+  },
   "cgm:recipes/combat/advanced_bullet": {
     "criteria": {
       "has_copper_ingot": "2025-05-19 19:42:28 +0000"
