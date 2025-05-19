@@ -2665,5 +2665,83 @@
     },
     "done": true
   },
+  "cgm:recipes/combat/assault_rifle": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 19:42:28 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/shotgun": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 19:42:28 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/machine_pistol": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 19:42:28 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/bazooka": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 19:42:28 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/heavy_rifle": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 19:42:28 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/shell": {
+    "criteria": {
+      "has_copper_ingot": "2025-05-19 19:42:28 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/grenade_launcher": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 19:42:28 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/rifle": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 19:42:28 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/pistol": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 19:42:28 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/advanced_bullet": {
+    "criteria": {
+      "has_copper_ingot": "2025-05-19 19:42:28 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/mini_gun": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-19 19:42:28 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/misc/workbench": {
+    "criteria": {
+      "has_iron": "2025-05-19 19:42:28 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/basic_bullet": {
+    "criteria": {
+      "has_copper_ingot": "2025-05-19 19:42:28 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
