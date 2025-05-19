@@ -1806,9 +1806,27 @@
     },
     "done": true
   },
+  "apollyon:condemned_to_die": {
+    "criteria": {
+      "condemned_to_die": "2025-05-18 23:58:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2025-05-18 23:10:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-05-18 23:54:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-05-18 23:54:25 +0000"
     },
     "done": true
   },
@@ -1908,6 +1926,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-05-18 23:54:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2025-05-18 23:54:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_diamond": "2025-05-18 23:10:03 +0000"
@@ -1926,9 +1956,21 @@
     },
     "done": true
   },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-05-18 23:57:50 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/diamond_flanged_mace": {
     "criteria": {
       "has_diamond": "2025-05-18 23:10:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-05-18 23:54:25 +0000"
     },
     "done": true
   },
@@ -1986,6 +2028,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-05-18 23:54:25 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:battle_hammer": {
+    "criteria": {
+      "has_battle_hammer": "2025-05-18 23:54:11 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/diamond_lance": {
     "criteria": {
       "has_diamond": "2025-05-18 23:10:03 +0000"
@@ -2013,6 +2067,12 @@
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2025-05-18 22:02:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-05-18 23:54:25 +0000"
     },
     "done": true
   },
@@ -2070,6 +2130,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2025-05-18 23:57:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-05-18 23:10:03 +0000"
@@ -2085,6 +2151,12 @@
   "spartanweaponry:boomerang": {
     "criteria": {
       "has_boomerang": "2025-05-18 22:41:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-05-18 23:54:25 +0000"
     },
     "done": true
   },
