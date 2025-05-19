@@ -426,3 +426,9 @@ Available: [Lnet/minecraft/world/item/Item;, Lnet/minecraft/world/item/ItemStack
 [19May2025 19:42:30.485] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2442ms or 48 ticks behind
 [19May2025 19:45:21.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xandroid3X: Set own game mode to Creative Mode]
 [19May2025 19:45:58.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xandroid3X: Set own game mode to Spectator Mode]
+[19May2025 19:47:42.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xandroid3X: Set own game mode to Creative Mode]
+[19May2025 19:49:54.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xandroid3X: Set own game mode to Spectator Mode]
+[19May2025 19:50:16.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xandroid3X: Set own game mode to Survival Mode]
+[19May2025 19:50:26.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xandroid3X: Set own game mode to Spectator Mode]
+[19May2025 19:50:30.346] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-39, y=71, z=334}
+[19May2025 19:54:36.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Xandroid3X: Set own game mode to Survival Mode]
