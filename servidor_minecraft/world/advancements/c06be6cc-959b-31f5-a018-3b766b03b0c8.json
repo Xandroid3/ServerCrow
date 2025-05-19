@@ -2683,6 +2683,12 @@
     },
     "done": true
   },
+  "apollyon:condemned_to_die": {
+    "criteria": {
+      "condemned_to_die": "2025-05-19 20:45:44 +0000"
+    },
+    "done": true
+  },
   "cgm:recipes/combat/bazooka": {
     "criteria": {
       "has_iron_ingot": "2025-05-19 19:42:28 +0000"
@@ -2704,6 +2710,12 @@
   "cgm:recipes/combat/grenade_launcher": {
     "criteria": {
       "has_iron_ingot": "2025-05-19 19:42:28 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_tablet": {
+    "criteria": {
+      "has_magic_tablet": "2025-05-19 20:45:56 +0000"
     },
     "done": true
   },
@@ -2740,6 +2752,12 @@
   "cgm:recipes/combat/mini_gun": {
     "criteria": {
       "has_iron_ingot": "2025-05-19 19:42:28 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2025-05-19 20:46:25 +0000"
     },
     "done": true
   },

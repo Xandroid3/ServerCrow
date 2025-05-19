@@ -446,3 +446,4 @@ Available: [Lnet/minecraft/world/item/Item;, Lnet/minecraft/world/item/ItemStack
 [19May2025 20:45:44.848] [Server thread/INFO] [tombstone/]: The player Xandroid3X has successfully been saved
 [19May2025 20:45:56.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X has made the advancement [Where Is The Stone Pen?]
 [19May2025 20:46:25.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Xandroid3X has made the advancement [Magic Writing]
+[19May2025 20:52:02.593] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-67, y=66, z=216}
