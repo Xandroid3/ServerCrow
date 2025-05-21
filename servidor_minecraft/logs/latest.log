@@ -296,3 +296,10 @@ Available: [Lnet/minecraft/world/item/Item;, Lnet/minecraft/world/item/ItemStack
 [21May2025 04:46:28.336] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
 [21May2025 04:50:35.381] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: junioxd[/100.83.92.16:64910] logged in with entity id 547 at (-80.6862407728699, 61.5625, 303.92520864136276)
 [21May2025 04:50:35.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd joined the game
+[21May2025 04:54:59.217] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-99, y=76, z=328}
+[21May2025 04:56:46.369] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
+[21May2025 04:59:53.668] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
+[21May2025 05:00:05.519] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
+[21May2025 05:00:52.618] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
+[21May2025 05:01:34.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd was slain by Cannibal
+[21May2025 05:01:34.983] [Server thread/INFO] [tombstone/]: The player junioxd has successfully been saved
