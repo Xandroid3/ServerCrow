@@ -303,3 +303,7 @@ Available: [Lnet/minecraft/world/item/Item;, Lnet/minecraft/world/item/ItemStack
 [21May2025 05:00:52.618] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity prionmod:nightwalker but it was marked as removed already
 [21May2025 05:01:34.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd was slain by Cannibal
 [21May2025 05:01:34.983] [Server thread/INFO] [tombstone/]: The player junioxd has successfully been saved
+[21May2025 05:08:18.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd has made the advancement [Not Today, Thank You]
+[21May2025 05:10:30.563] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: BUILDER spawned at BlockPos{x=-102, y=76, z=291}
+[21May2025 05:11:59.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: junioxd died from internal damage.
+[21May2025 05:11:59.384] [Server thread/INFO] [tombstone/]: The player junioxd has successfully been saved
